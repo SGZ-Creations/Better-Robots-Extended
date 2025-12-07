@@ -2,49 +2,11 @@ data:extend(
 {
 	{
 		type = "bool-setting",
-		name = "BRE-use-Space-age",
-		order = "a",
-		setting_type = "startup",
-		default_value = true
-	},
-	{
-		type = "bool-setting",
-		name = "BRE-use-space-science",
-		order = "ab",
-		setting_type = "startup",
-		default_value = true
-	},
-	{
-		type = "bool-setting",
-		name = "BRE-Arbeitsroboter-Transportmenge-Forschung",
-		order = "ac",
-		setting_type = "startup",
-		default_value = true
-	},
-	{
-		type = "string-setting",
-		name = "BRE_Tier-Stufe",
-		order = "ad",
-		setting_type = "startup",
-		allowed_values = {"MK2", "MK3", "MK4", "MK5"},
-		default_value = "MK5"
-	},
-	{
-		type = "bool-setting",
 		name = "BRE-Roboport-MK3",
 		order = "ae",
 		setting_type = "startup",
 		default_value = true
 	},
-    {
-        type = "double-setting",
-        name = "BRE-Forschung-Kosten-Multiplikator",
-		order = "bb",
-        setting_type = "startup",
-        default_value = 1,
-        minimum_value = 0.1,
-        maximum_value = 100
-    },
     {
         type = "double-setting",
         name = "BRE-Speed-MK2",
@@ -140,7 +102,7 @@ data:extend(
 		setting_type = "startup",
 		default_value = 50,
 		minimum_value = 25,
-		maximum_value = 250
+		maximum_value = 5000
 	},
 	{
 		type = "int-setting",
@@ -149,7 +111,7 @@ data:extend(
 		setting_type = "startup",
 		default_value = 110,
 		minimum_value = 55,
-		maximum_value = 500
+		maximum_value = 5000
 	},
 	{
 		type = "int-setting",
@@ -158,7 +120,7 @@ data:extend(
 		setting_type = "startup",
 		default_value = 100,
 		minimum_value = 25,
-		maximum_value = 250
+		maximum_value = 5000
 	},
 	{
 		type = "int-setting",
@@ -167,7 +129,7 @@ data:extend(
 		setting_type = "startup",
 		default_value = 250,
 		minimum_value = 50,
-		maximum_value = 500
+		maximum_value = 5000
 	},
 	{
 		type = "double-setting",
@@ -184,19 +146,5 @@ data:extend(
         setting_type = "startup",
         default_value = false,
         order = "f"
-    },
-	{
-        type = "bool-setting",
-        name = "BRE-erzwinge-MK1-Bots",
-        setting_type = "startup",
-        default_value = false,
-        order = "fa"
-    },
-	{
-        type = "bool-setting",
-        name = "BRE-erzwinge-BRE-MK1-Bots",
-        setting_type = "startup",
-        default_value = false,
-        order = "fb"
     },
 })

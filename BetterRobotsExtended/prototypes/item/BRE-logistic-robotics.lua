@@ -1,5 +1,4 @@
 data:extend({
-
 	{
 		type = "item",
 		name = "BRE-logistic-robotics-mk1",

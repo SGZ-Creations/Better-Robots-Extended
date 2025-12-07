@@ -1,5 +1,4 @@
 data:extend({
-
 	{
 		type = "item",
 		name = "BRE-construction-robotics-mk1",
@@ -60,5 +59,4 @@ data:extend({
 		stack_size = 100,
 		weight = 20 * kg
 	}
-
 })
