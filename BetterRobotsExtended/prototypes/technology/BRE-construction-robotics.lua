@@ -7,10 +7,10 @@ data:extend({
 		localised_description = { "technology-description.BRE-construction-robotics-mk1" },
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"robootics"},
+		prerequisites = {"robotics"},
 		effects = {
 			{
-				type = "unlock-recipe", 
+				type = "unlock-recipe",
 				recipe = "BRE-construction-robotics-mk1"
 			}
 		},
@@ -30,10 +30,10 @@ data:extend({
 		localised_description = { "technology-description.BRE-construction-robotics-mk2" },
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-logistic-robotics-1"},
+		prerequisites = {"BRE-construction-robotics-1"},
 		effects = {
 			{
-				type = "unlock-recipe", 
+				type = "unlock-recipe",
 				recipe = "BRE-construction-robotics-mk2"
 			}
 		},

@@ -6,7 +6,7 @@ data:extend({
 		localised_description = {"technology-description.BRE-logistic-robotics-mk1"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"robootics"},
+		prerequisites = {"robotics"},
 		effects = {
 			{
 				type = "unlock-recipe",

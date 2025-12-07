@@ -1,5 +1,5 @@
 ---@class data.RecipePrototype
-Recipe = data.raw.recipe
+local Recipe = data.raw.recipe
 if mods["bobelectronics"] and mods["bobplates"] and mods["bobrevamp"] and mods["boblogistics"]then
 --Logistics
 	Recipe["BRE-logistic-robotics-mk1"].ingredients = {
