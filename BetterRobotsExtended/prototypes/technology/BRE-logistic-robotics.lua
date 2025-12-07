@@ -61,7 +61,7 @@ data:extend({
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "bre-roboport-mk3"
+				recipe = "bre-roboport-mk2"
 			}
 		},
 		unit = {
@@ -113,6 +113,10 @@ data:extend({
 			{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk5"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "bre-roboport-mk3"
 			}
 		},
 		unit = {
