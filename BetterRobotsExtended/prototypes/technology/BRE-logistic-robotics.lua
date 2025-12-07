@@ -19,7 +19,7 @@ data:extend({
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
 			},
-			time = 45
+			time = 30
 		},
 		order = "BRE-Logistic-Bot-01"
 	},
@@ -43,7 +43,7 @@ data:extend({
 				{"logistic-science-pack", 1},
 				{"chemical-science-pack", 1}
 			},
-			time = 45
+			time = 30
 		},
 		order = "BRE-Logistic-Bot-02"
 	},
@@ -58,6 +58,10 @@ data:extend({
 			{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk3"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "bre-roboport-mk3"
 			}
 		},
 		unit = {
@@ -68,7 +72,7 @@ data:extend({
 				{"chemical-science-pack", 1},
 				{"production-science-pack", 1},
 			},
-			time = 45
+			time = 30
 		},
 		order = "BRE-Logistic-Bot-03"
 	},
@@ -94,7 +98,7 @@ data:extend({
 				{"production-science-pack", 1},
 				{"utility-science-pack", 1},
 			},
-			time = 45
+			time = 30
 		},
 		order = "BRE-Logistic-Bot-04"
 	},
@@ -121,7 +125,7 @@ data:extend({
 				{"utility-science-pack", 1},
 				{"space-science-pack", 1},
 			},
-			time = 60
+			time = 30
 		},
 		order = "BRE-Logistic-Bot-05"
 	},

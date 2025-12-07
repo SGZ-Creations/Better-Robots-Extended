@@ -1,2 +1,4 @@
-data.raw.roboport["roboport"].fast_replaceable_group = "roboport"
-data.raw.roboport["roboport"].next_upgrade = "bre-roboport-mk2"
+require("Compatibilities.Bobs.BobsDisabling")
+require("Compatibilities.Bobs.BobRecipes")
+require("Compatibilities.Bobs.BobTech")
+require("Compatibilities.MetalStars_Vesta.MetalStars_Vesta_Recipes")

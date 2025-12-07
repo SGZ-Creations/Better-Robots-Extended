@@ -1,34 +1,57 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.14
-Date: 2025-12-06
+Version: 1.2.0
+Date: 07.12.25
+  Features:
+    - Forked & changed by SGZ_Creations.
   Changes:
-    - Improved recipe detection system to correctly identify modified construction-robot and logistic-robot base recipes when used with Bob’s Mods and other overhauls.
-    - MK1 robot recipes are now generated only after final data stage to ensure full compatibility with mods that patch vanilla robots in data-updates and data-final-fixes.
+    - Removed Recipe Checks code, recipes bloats the menu why have 2 recipes making sort of the same item.
+    - Removed Robot selection setting.
+  Info:
+    - Removed Settings that i found unnecessary.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.16
+Date: 07.12.25
+  Bugfixes:
+    - base recipe requirements used for comparison against vanilla robot recipes.
+    - The wrong ingredient sets were being checked, which caused the mod to mis-detect whether a recipe had been modified.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.15
+Date: 07.12.25
+  Bugfixes:
+    - Fixed BRE roboport MK2/MK3 charging robots even when not connected to the power grid. Their energy source now correctly starts empty and requires power before charging any bots.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.14
+Date: 06.12.25
+  Changes:
     - Unified MK1 recipe loading to prevent duplicate registration and improve stability.
     - Added safety check preventing MK1 generation when base recipes remain unmodified (unless forced through mod setting).
+  Modding:
+    - Improved recipe detection system to correctly identify modified construction-robot and logistic-robot base recipes when used with Bob’s Mods and other overhauls.
+    - MK1 robot recipes are now generated only after final data stage to ensure full compatibility with mods that patch vanilla robots in data-updates and data-final-fixes.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.13
-Date: 2025-09-21 
+Date: 21.09.25 
   Bugfixes:
     - Fixed Logistic Robot MK5 animation: in_motion sprite dimensions/offsets were mismatched. Now aligned with the cargo animation (80×84 frames, proper row offset). Flying animation without cargo now displays correctly.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.12
-Date: 2025-06-15 
-  Changelog:
+Date: 15.06.25
+  Changes:
     - Adjusted hatch alignment on Mk2 and Mk3 roboports to ensure correct visual positioning.
     - Minor tweak to base_patch offset for better sprite consistency.
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.11  
-Date: 2025-06-14  
-  Changelog:
-    - Fixed: Charging port hatch now uses a custom sprite instead of the vanilla one,
-             preventing visual misalignment caused by other mods (e.g. Bob's Mods).
-    - Minor visual cleanup on Mk2 and Mk3 roboports to ensure consistent appearance.
+Version: 1.1.11
+Date: 14.06.25
+  Changes:
+    - Minor visual clean-up on Mk2 and Mk3 roboports to ensure consistent appearance.
+  Bugfixes:
+    - Charging port hatch now uses a custom sprite instead of the vanilla one, preventing visual misalignment caused by other mods (e.g. Bob's Mods).
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.10
 Date: 2025-04-01
-  Changelog:
+  Features:
     - Added new battery research levels from 1 to 18.
+  Changes:
     - Battery research now dynamically integrates optional science packs based on existing mod settings.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.8
