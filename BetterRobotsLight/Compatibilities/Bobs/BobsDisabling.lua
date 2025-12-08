@@ -1,17 +1,29 @@
 ---@class LuaSettings
 local SS = settings.startup
+---@class data.RecipePrototype
+local Recipe = data.raw.recipe
 ---@class Data.ItemPrototype
 local Item = data.raw.item
 
 
+data.raw["logistic-robot"]["logistic-robot"].next_upgrade = nil
+data.raw["logistic-robot"]["bob-logistic-robot-2"].next_upgrade = nil
+data.raw["logistic-robot"]["bob-logistic-robot-3"].next_upgrade = nil
+data.raw["logistic-robot"]["bob-logistic-robot-4"].next_upgrade = nil
+data.raw["logistic-robot"]["bob-logistic-robot-5"].next_upgrade = nil
+
+data.raw["construction-robot"]["construction-robot"].next_upgrade = nil
+data.raw["construction-robot"]["bob-construction-robot-2"].next_upgrade = nil
+data.raw["construction-robot"]["bob-construction-robot-3"].next_upgrade = nil
+data.raw["construction-robot"]["bob-construction-robot-4"].next_upgrade = nil
+data.raw["construction-robot"]["bob-construction-robot-5"].next_upgrade = nil
+
 if mods["boblogistics"] then
     local recipes = {
-        "bob-robot-tool-logistic",
         "bob-logistic-robot-2",
         "bob-logistic-robot-3",
         "bob-logistic-robot-4",
         "bob-logistic-robot-5",
-        "bob-robot-tool-construction",
         "bob-construction-robot-2",
         "bob-construction-robot-3",
         "bob-construction-robot-4",
@@ -19,7 +31,6 @@ if mods["boblogistics"] then
         "bob-roboport-2",
         "bob-roboport-3",
         "bob-roboport-4",
-        "bob-robot-brain",
     }
     local technologies = {
         "bob-infinite-worker-robots-storage-4"

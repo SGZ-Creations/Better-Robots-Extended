@@ -1,12 +1,5 @@
 data:extend(
 {
-	{
-		type = "bool-setting",
-		name = "BRE-Roboport-MK3",
-		order = "ae",
-		setting_type = "startup",
-		default_value = true
-	},
     {
         type = "double-setting",
         name = "BRE-Speed-MK2",
@@ -80,13 +73,6 @@ data:extend(
         maximum_value = 10
     },
 	{
-		type = "bool-setting",
-		name = "BRE-Battery-Forschung",
-		order = "de",
-		setting_type = "startup",
-		default_value = true
-	},
-	{
 		type = "double-setting",
 		name = "BRE-Roboter-Battery",
 		order = "df",
@@ -140,11 +126,4 @@ data:extend(
 		minimum_value = 0.1,
 		maximum_value = 10
 	},
-	{
-        type = "bool-setting",
-        name = "BRE-disable-bobs-bots",
-        setting_type = "startup",
-        default_value = false,
-        order = "f"
-    },
 })

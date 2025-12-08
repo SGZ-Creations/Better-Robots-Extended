@@ -1,10 +1,12 @@
-local ICON = "__base__/graphics/technology/construction-robotics.png"
+---@class Data.TechnologyPrototype
+local Tech = data.raw["technology"]
 
+local ICON = "__base__/graphics/technology/construction-robotics.png"
 data:extend({
 	{
 		type = "technology",
-		name = "BRE-Robots-1",
-		localised_description = { "technology-description.BRE-construction-robotics-mk1" },
+		name = "BRE-RoboticsAndPorts-1",
+		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk1"},
 		icon = ICON,
 		icon_size = 256,
 		prerequisites = {"robotics"},
@@ -26,15 +28,15 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Construction-Bot-01"
+		order = "BRE-RoboticsAndPorts-01"
 	},
 	{
 		type = "technology",
-		name = "BRE-construction-robotics-2",
-		localised_description = { "technology-description.BRE-construction-robotics-mk2" },
+		name = "BRE-RoboticsAndPorts-2",
+		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk2"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-construction-robotics-1"},
+		prerequisites = {"BRE-RoboticsAndPorts-1"},
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -55,15 +57,15 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Construction-Bot-02"
+		order = "BRE-RoboticsAndPorts-02"
 	},
 	{
 		type = "technology",
-		name = "BRE-construction-robotics-3",
-		localised_description = { "technology-description.BRE-construction-robotics-mk3" },
+		name = "BRE-RoboticsAndPorts-3",
+		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk3"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-construction-robotics-2"},
+		prerequisites = {"BRE-RoboticsAndPorts-2"},
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -89,15 +91,15 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Construction-Bot-03"
+		order = "BRE-RoboticsAndPorts-03"
     },
 	{
 		type = "technology",
-		name = "BRE-construction-robotics-4",
-		localised_description = { "technology-description.BRE-construction-robotics-mk4" },
+		name = "BRE-RoboticsAndPorts-4",
+		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk4"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-construction-robotics-3"},
+		prerequisites = {"BRE-RoboticsAndPorts-3"},
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -119,15 +121,15 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Construction-Bot-04"
+		order = "BRE-RoboticsAndPorts-04"
     },
 	{
 		type = "technology",
-		name = "BRE-construction-robotics-5",
-		localised_description = { "technology-description.BRE-construction-robotics-mk5" },
+		name = "BRE-RoboticsAndPorts-5",
+		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk5"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-construction-robotics-4"},
+		prerequisites = {"BRE-RoboticsAndPorts-4"},
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -153,6 +155,8 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Construction-Bot-05"
+		order = "BRE-RoboticsAndPorts-05"
     },
 })
+
+table.insert(Tech["BRE-RoboticsAndPorts-1"].effects, {type = "unlock-recipe", recipe = "roboport"})
