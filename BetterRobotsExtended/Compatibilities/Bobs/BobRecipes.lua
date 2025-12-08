@@ -3,6 +3,7 @@ local Recipe = data.raw.recipe
 if mods["bobelectronics"] and mods["bobplates"] and mods["bobrevamp"] and mods["boblogistics"]then
 --Logistics
 	Recipe["BRE-logistic-robotics-mk1"].ingredients = {
+		{type = "item", name = "bob-basic-circuit-board", amount = 2},
 		{type = "item", name = "bob-bronze-alloy", amount = 5},
 		{type = "item", name = "flying-robot-frame", amount = 1},
 	}
