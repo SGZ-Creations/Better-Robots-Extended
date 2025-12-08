@@ -3,7 +3,7 @@
 	"version": "1.2.0",
 	"title": "BetterRobotsLight",
 	"author": "Nick1Z2, SGZ_Creations",
-	"description": "This mod adds Better_Robots & Roboports",
+	"description": "Adding Better Robots & Roboports",
 	"factorio_version": "2.0",
 	"dependencies": [
 		"base >= 2.0",

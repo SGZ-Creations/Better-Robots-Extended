@@ -2,10 +2,10 @@ require("prototypes.Item.BRE-construction-robotics")
 require("prototypes.Item.BRE-logistic-robotics")
 require("prototypes.Item.BRE-roboport")
 
-require("prototypes.Misc.Groupe_Subgrupe")
-
 require("prototypes.Entity.BRE-robotics")
 require("prototypes.Entity.BRE-Roboport")
+
+require("prototypes.Misc.Groupe_Subgrupe")
 
 require("prototypes.Recipe.Robots")
 require("prototypes.Recipe.Roboport")

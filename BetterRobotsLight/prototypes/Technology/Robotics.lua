@@ -3,7 +3,7 @@ local ICON = "__base__/graphics/technology/construction-robotics.png"
 data:extend({
 	{
 		type = "technology",
-		name = "BRE-construction-robotics-1",
+		name = "BRE-Robots-1",
 		localised_description = { "technology-description.BRE-construction-robotics-mk1" },
 		icon = ICON,
 		icon_size = 256,
@@ -16,7 +16,7 @@ data:extend({
 			{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk1"
-			}
+			},
 		},
 		unit = {
 			count = 1000,
