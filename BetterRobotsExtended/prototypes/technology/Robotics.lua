@@ -1,13 +1,18 @@
-local ICON = "__base__/graphics/technology/logistic-robotics.png"
+local ICON = "__base__/graphics/technology/construction-robotics.png"
+
 data:extend({
 	{
 		type = "technology",
-		name = "BRE-logistic-robotics-1",
-		localised_description = {"technology-description.BRE-logistic-robotics-mk1"},
+		name = "BRE-construction-robotics-1",
+		localised_description = { "technology-description.BRE-construction-robotics-mk1" },
 		icon = ICON,
 		icon_size = 256,
 		prerequisites = {"robotics"},
 		effects = {
+			{
+				type = "unlock-recipe",
+				recipe = "BRE-construction-robotics-mk1"
+			},
 			{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk1"
@@ -21,40 +26,49 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Logistic-Bot-01"
+		order = "BRE-Construction-Bot-01"
 	},
 	{
 		type = "technology",
-		name = "BRE-logistic-robotics-2",
-		localised_description = {"technology-description.BRE-logistic-robotics-mk2"},
+		name = "BRE-construction-robotics-2",
+		localised_description = { "technology-description.BRE-construction-robotics-mk2" },
 		icon = ICON,
 		icon_size = 256,
+		prerequisites = {"BRE-construction-robotics-1"},
 		effects = {
+			{
+				type = "unlock-recipe",
+				recipe = "BRE-construction-robotics-mk2"
+			},
 			{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk2"
 			}
 		},
-		prerequisites = {"BRE-logistic-robotics-1"},
 		unit = {
 			count = 2000,
-			ingredients = {
+			ingredients =
+			{
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
-				{"chemical-science-pack", 1}
+				{"chemical-science-pack", 1},
 			},
 			time = 30
 		},
-		order = "BRE-Logistic-Bot-02"
+		order = "BRE-Construction-Bot-02"
 	},
 	{
 		type = "technology",
-		name = "BRE-logistic-robotics-3",
-		localised_description = {"technology-description.BRE-logistic-robotics-mk3"},
+		name = "BRE-construction-robotics-3",
+		localised_description = { "technology-description.BRE-construction-robotics-mk3" },
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-logistic-robotics-2"},
+		prerequisites = {"BRE-construction-robotics-2"},
 		effects = {
+			{
+				type = "unlock-recipe",
+				recipe = "BRE-construction-robotics-mk3"
+			},
 			{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk3"
@@ -66,7 +80,8 @@ data:extend({
 		},
 		unit = {
 			count = 3000,
-			ingredients = {
+			ingredients =
+			{
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
 				{"chemical-science-pack", 1},
@@ -74,16 +89,20 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Logistic-Bot-03"
-	},
+		order = "BRE-Construction-Bot-03"
+    },
 	{
 		type = "technology",
-		name = "BRE-logistic-robotics-4",
-		localised_description = {"technology-description.BRE-logistic-robotics-mk4"},
+		name = "BRE-construction-robotics-4",
+		localised_description = { "technology-description.BRE-construction-robotics-mk4" },
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-logistic-robotics-3"},
+		prerequisites = {"BRE-construction-robotics-3"},
 		effects = {
+			{
+				type = "unlock-recipe",
+				recipe = "BRE-construction-robotics-mk4"
+			},
 			{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk4"
@@ -100,17 +119,20 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Logistic-Bot-04"
-	},
+		order = "BRE-Construction-Bot-04"
+    },
 	{
 		type = "technology",
-		name = "BRE-logistic-robotics-5",
-		localised_description = {"technology-description.BRE-logistic-robotics-mk5"},
+		name = "BRE-construction-robotics-5",
+		localised_description = { "technology-description.BRE-construction-robotics-mk5" },
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-logistic-robotics-4"},
+		prerequisites = {"BRE-construction-robotics-4"},
 		effects = {
 			{
+				type = "unlock-recipe",
+				recipe = "BRE-construction-robotics-mk5"
+			},{
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk5"
 			},
@@ -131,6 +153,6 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-Logistic-Bot-05"
-	},
+		order = "BRE-Construction-Bot-05"
+    },
 })

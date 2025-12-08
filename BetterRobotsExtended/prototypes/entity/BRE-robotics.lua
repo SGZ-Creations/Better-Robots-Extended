@@ -84,7 +84,7 @@ data:extend({
 	{
         type = "construction-robot",
         name = "BRE-construction-robotics-mk2",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-construction-robot-mk2.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-construction-robot-mk2.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-construction-robotics-mk2"},
         resistances = {
@@ -129,7 +129,7 @@ data:extend({
         construction_vector = {0.30, 0.22},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -139,7 +139,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -149,7 +149,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -160,7 +160,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk2.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -171,7 +171,7 @@ data:extend({
             scale = 0.5
         },
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -182,7 +182,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -193,7 +193,7 @@ data:extend({
             draw_as_shadow = true
         },
         working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/construction-robot-working.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/construction-robot-working.png",
 			priority = "high",
             line_length = 2,
             width = 57,
@@ -205,7 +205,7 @@ data:extend({
             scale = 0.5
         },
         shadow_working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -220,7 +220,7 @@ data:extend({
 	{
         type = "construction-robot",
         name = "BRE-construction-robotics-mk3",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-construction-robot-mk3.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-construction-robot-mk3.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-construction-robotics-mk3"},
         resistances =
@@ -267,7 +267,7 @@ data:extend({
         construction_vector = {0.30, 0.22},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -277,7 +277,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -287,7 +287,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -298,7 +298,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk3.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -309,7 +309,7 @@ data:extend({
             scale = 0.5
         },
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -320,7 +320,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -331,7 +331,7 @@ data:extend({
             draw_as_shadow = true
         },
         working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/construction-robot-working.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/construction-robot-working.png",
 			priority = "high",
             line_length = 2,
             width = 57,
@@ -343,7 +343,7 @@ data:extend({
             scale = 0.5
         },
         shadow_working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -358,7 +358,7 @@ data:extend({
 	{
         type = "construction-robot",
         name = "BRE-construction-robotics-mk4",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-construction-robot-mk4.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-construction-robot-mk4.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-construction-robotics-mk4"},
         resistances =
@@ -405,7 +405,7 @@ data:extend({
         construction_vector = {0.30, 0.22},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -415,7 +415,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -425,7 +425,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -436,7 +436,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk4.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -447,7 +447,7 @@ data:extend({
             scale = 0.5
         },
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -458,7 +458,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -469,7 +469,7 @@ data:extend({
             draw_as_shadow = true
         },
         working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/construction-robot-working.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/construction-robot-working.png",
 			priority = "high",
             line_length = 2,
             width = 57,
@@ -481,7 +481,7 @@ data:extend({
             scale = 0.5
         },
         shadow_working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -496,7 +496,7 @@ data:extend({
 	{
         type = "construction-robot",
         name = "BRE-construction-robotics-mk5",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-construction-robot-mk5.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-construction-robot-mk5.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-construction-robotics-mk5"},
         resistances =
@@ -543,7 +543,7 @@ data:extend({
         construction_vector = {0.30, 0.22},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -553,7 +553,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
 			priority = "high",
 			line_length = 16,
 			width = 66,
@@ -563,7 +563,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -574,7 +574,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-mk5.png",
 			priority = "high",
             line_length = 16,
             width = 66,
@@ -585,7 +585,7 @@ data:extend({
             scale = 0.5
         },
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -596,7 +596,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -607,7 +607,7 @@ data:extend({
             draw_as_shadow = true
         },
         working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/construction-robot-working.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/construction-robot-working.png",
 			priority = "high",
             line_length = 2,
             width = 57,
@@ -619,7 +619,7 @@ data:extend({
             scale = 0.5
         },
         shadow_working = {
-			filename = "__BetterRobotsExtended__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/construction-robot/bre-construction-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 104,
@@ -634,7 +634,7 @@ data:extend({
     {
         type = "logistic-robot",
         name = "BRE-logistic-robotics-mk2",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-logistic-robot-mk2.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-logistic-robot-mk2.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-logistic-robotics-mk2"},
         is_military_target = false,
@@ -664,7 +664,7 @@ data:extend({
         icon_draw_specification = {shift = {0, -0.2}, scale = 0.5, render_layer = "air-entity-info-icon"},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -675,7 +675,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -685,7 +685,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
 			priority = "high",
             line_length = 16,
             width = 80,
@@ -696,7 +696,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk2.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -707,7 +707,7 @@ data:extend({
 			scale = 0.5
 		},
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -719,7 +719,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -730,7 +730,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 115,
@@ -742,7 +742,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -757,7 +757,7 @@ data:extend({
     {
         type = "logistic-robot",
         name = "BRE-logistic-robotics-mk3",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-logistic-robot-mk3.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-logistic-robot-mk3.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-logistic-robotics-mk3"},
         is_military_target = false,
@@ -787,7 +787,7 @@ data:extend({
         icon_draw_specification = {shift = {0, -0.2}, scale = 0.5, render_layer = "air-entity-info-icon"},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -798,7 +798,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -808,7 +808,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
 			priority = "high",
             line_length = 16,
             width = 80,
@@ -819,7 +819,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk3.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -830,7 +830,7 @@ data:extend({
 			scale = 0.5
 		},
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -842,7 +842,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -853,7 +853,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 115,
@@ -865,7 +865,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -880,7 +880,7 @@ data:extend({
     {
         type = "logistic-robot",
         name = "BRE-logistic-robotics-mk4",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-logistic-robot-mk4.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-logistic-robot-mk4.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-logistic-robotics-mk4"},
         is_military_target = false,
@@ -910,7 +910,7 @@ data:extend({
         icon_draw_specification = {shift = {0, -0.2}, scale = 0.5, render_layer = "air-entity-info-icon"},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -921,7 +921,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -931,7 +931,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
 			priority = "high",
             line_length = 16,
             width = 80,
@@ -942,7 +942,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk4.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -953,7 +953,7 @@ data:extend({
 			scale = 0.5
 		},
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -965,7 +965,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -976,7 +976,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 115,
@@ -988,7 +988,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -1003,7 +1003,7 @@ data:extend({
     {
         type = "logistic-robot",
         name = "BRE-logistic-robotics-mk5",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-logistic-robot-mk5.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-logistic-robot-mk5.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
         minable = {mining_time = 0.1, result = "BRE-logistic-robotics-mk5"},
         is_military_target = false,
@@ -1033,7 +1033,7 @@ data:extend({
         icon_draw_specification = {shift = {0, -0.2}, scale = 0.5, render_layer = "air-entity-info-icon"},
         water_reflection = robot_reflection(1),
         idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -1044,7 +1044,7 @@ data:extend({
 			scale = 0.5
 		},
         idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -1054,7 +1054,7 @@ data:extend({
 			scale = 0.5
 		},
         in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
 			priority = "high",
             line_length = 16,
             width = 80,
@@ -1065,7 +1065,7 @@ data:extend({
             scale = 0.5
         },
         in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-mk5.png",
 			priority = "high",
 			line_length = 16,
 			width = 80,
@@ -1076,7 +1076,7 @@ data:extend({
 			scale = 0.5
 		},
         shadow_idle = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -1088,7 +1088,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_idle_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,
@@ -1099,7 +1099,7 @@ data:extend({
 			draw_as_shadow = true
 		},
         shadow_in_motion = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
             line_length = 16,
             width = 115,
@@ -1111,7 +1111,7 @@ data:extend({
             draw_as_shadow = true
         },
         shadow_in_motion_with_cargo = {
-			filename = "__BetterRobotsExtended__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
+			filename = "__BetterRobotsLight__/graphics/entity/logistic-robot/bre-logistic-robot-shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 115,

@@ -1,4 +1,5 @@
 data:extend({
+	--Construction
 	{
 		type = "recipe",
 		name = "BRE-construction-robotics-mk1",
@@ -17,8 +18,8 @@ data:extend({
 		allow_quality = true,
 		ingredients = {
 			{type = "item", name = "BRE-construction-robotics-mk1", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "electronic-circuit", amount = 3},
-			{type = "item", name = "battery", amount = 2}
 		},
 		results = {{type = "item", name = "BRE-construction-robotics-mk2", amount = 1}}
 	},
@@ -30,7 +31,8 @@ data:extend({
 		ingredients =
 		{
 			{type = "item", name = "BRE-construction-robotics-mk2", amount = 1},
-			{type = "item", name = "electric-engine-unit", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
+			{type = "item", name = "advanced-circuit", amount = 1},
 		},
 		results = {{type = "item", name = "BRE-construction-robotics-mk3", amount = 1}}
 	},
@@ -43,6 +45,8 @@ data:extend({
 		{
 			{type = "item", name = "BRE-construction-robotics-mk3", amount = 1},
 			{type = "item", name = "low-density-structure", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
+			{type = "item", name = "advanced-circuit", amount = 1},
 		},
 		results = {{type = "item", name = "BRE-construction-robotics-mk4", amount = 1}}
 	},
@@ -53,13 +57,12 @@ data:extend({
         allow_quality = true,
 		ingredients = {
 			{type = "item", name = "BRE-construction-robotics-mk4", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "processing-unit", amount = 1},
 		},
 		results = {{type = "item", name = "BRE-construction-robotics-mk5", amount = 1}}
-	}
-})
-
-data:extend({
+	},
+--Logistics
 	{
 		type = "recipe",
 		name = "BRE-logistic-robotics-mk1",
@@ -78,8 +81,8 @@ data:extend({
 		allow_quality = true,
 		ingredients = {
 			{type = "item", name = "BRE-logistic-robotics-mk1", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "electronic-circuit", amount = 3},
-			{type = "item", name = "battery", amount = 2}
 		},
 		results = {{type = "item", name = "BRE-logistic-robotics-mk2", amount = 1}}
 	},
@@ -91,7 +94,8 @@ data:extend({
 		ingredients =
 		{
 			{type = "item", name = "BRE-logistic-robotics-mk2", amount = 1},
-			{type = "item", name = "electric-engine-unit", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
+			{type = "item", name = "advanced-circuit", amount = 1},
 		},
 		results = {{type = "item", name = "BRE-logistic-robotics-mk3", amount = 1}}
 	},
@@ -104,6 +108,8 @@ data:extend({
 		{
 			{type = "item", name = "BRE-logistic-robotics-mk3", amount = 1},
 			{type = "item", name = "low-density-structure", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
+			{type = "item", name = "advanced-circuit", amount = 1},
 		},
 		results = {{type = "item", name = "BRE-logistic-robotics-mk4", amount = 1}}
 	},
@@ -115,6 +121,8 @@ data:extend({
 		ingredients =
 		{
 			{type = "item", name = "BRE-logistic-robotics-mk4", amount = 1},
+			{type = "item", name = "flying-robot-frame", amount = 1},
+			{type = "item", name = "low-density-structure", amount = 1},
 			{type = "item", name = "processing-unit", amount = 1},
 		},
 		results = {{type = "item", name = "BRE-logistic-robotics-mk5", amount = 1}}

@@ -35,7 +35,7 @@ BRE_roboportmk2.charging_offsets = {
 BRE_roboportmk2.charging_station_count_affected_by_quality = true
 BRE_roboportmk2.base.layers = {
     {
-        filename = "__BetterRobotsExtended__/graphics/entity/roboport/bre-roboport-mk2-base.png",
+        filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk2-base.png",
         width = 228,
         height = 277,
         shift = util.by_pixel(2, -2.25),
@@ -51,7 +51,7 @@ BRE_roboportmk2.base.layers = {
     }
 }
 BRE_roboportmk2.base_patch = {
-    filename = "__BetterRobotsExtended__/graphics/entity/roboport/bre-roboport-mk2-base-patch.png",
+    filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk2-base-patch.png",
     priority = "medium",
     width = 138,
     height = 100,
@@ -121,7 +121,7 @@ BRE_roboportmk3.charging_offsets = {
 }
 BRE_roboportmk3.base.layers = {
     {
-        filename = "__BetterRobotsExtended__/graphics/entity/roboport/bre-roboport-mk3-base.png",
+        filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk3-base.png",
         width = 228,
         height = 277,
         shift = util.by_pixel(2, -2.25),
@@ -137,7 +137,7 @@ BRE_roboportmk3.base.layers = {
     }
 }
 BRE_roboportmk3.base_patch = {
-    filename = "__BetterRobotsExtended__/graphics/entity/roboport/bre-roboport-mk3-base-patch.png",
+    filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk3-base-patch.png",
     priority = "medium",
     width = 138,
     height = 100,

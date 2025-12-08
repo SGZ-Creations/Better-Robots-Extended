@@ -59,7 +59,7 @@ data:extend
     {
         type = "technology",
         name = "BRE-robot-battery-1",
-        icon = "__BetterRobotsExtended__/graphics/RobotBattery/worker-robot-battery.png",
+        icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = {"robotics"},
         effects = {
@@ -85,7 +85,7 @@ data:extend
     {
         type = "technology",
         name = "BRE-robot-battery-4",
-        icon = "__BetterRobotsExtended__/graphics/RobotBattery/worker-robot-battery.png",
+        icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = {"BRE-robot-battery-1"},
         effects = {
@@ -111,7 +111,7 @@ data:extend
     {
         type = "technology",
         name = "BRE-robot-battery-7",
-        icon = "__BetterRobotsExtended__/graphics/RobotBattery/worker-robot-battery.png",
+        icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = {"BRE-robot-battery-4"},
         effects = {
@@ -138,7 +138,7 @@ data:extend
     {
         type = "technology",
         name = "BRE-robot-battery-10",
-        icon = "__BetterRobotsExtended__/graphics/RobotBattery/worker-robot-battery.png",
+        icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = Anforderung.F1,
         effects = {
@@ -159,7 +159,7 @@ data:extend
     {
         type = "technology",
         name = "BRE-robot-battery-13",
-        icon = "__BetterRobotsExtended__/graphics/RobotBattery/worker-robot-battery.png",
+        icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = Anforderung.F2,
         effects = {
@@ -180,7 +180,7 @@ data:extend
     {
         type = "technology",
         name = "BRE-robot-battery-16",
-        icon = "__BetterRobotsExtended__/graphics/RobotBattery/worker-robot-battery.png",
+        icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = Anforderung.F3,
         effects = {

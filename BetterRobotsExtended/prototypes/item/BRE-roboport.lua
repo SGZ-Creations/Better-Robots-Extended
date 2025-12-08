@@ -2,7 +2,7 @@ data:extend({
     {
         type = "item",
         name = "bre-roboport-mk2",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-roboport-mk2.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-roboport-mk2.png",
         icon_size = 64,
         subgroup = "logistic-network",
         order = "c[signal]-ab[roboport]",
@@ -12,7 +12,7 @@ data:extend({
     {
         type = "item",
         name = "bre-roboport-mk3",
-        icon = "__BetterRobotsExtended__/graphics/icons/bre-roboport-mk3.png",
+        icon = "__BetterRobotsLight__/graphics/icons/bre-roboport-mk3.png",
         icon_size = 64,
         subgroup = "logistic-network",
         order = "c[signal]-ac[roboport]",
