@@ -6,3 +6,4 @@ Recipe["roboport"].ingredients = {
     {type = "item", name = "iron-gear-wheel", amount = 45},
     {type = "item", name = "advanced-circuit", amount = 45}
 }
+Recipe["roboport"].subgroupe = "Roboport"

@@ -41,7 +41,7 @@ data:extend({
             }
         },
         unit = {
-            count_formula = "(L - 3) * 10000",
+            count_formula = "(L - 3) * 1500",
             ingredients = ingredients,
             time = 60
         },
