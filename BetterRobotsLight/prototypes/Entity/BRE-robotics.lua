@@ -8,7 +8,7 @@ local Carry_MK2 = settings.startup["BRE-Carry-MK2"].value
 local Carry_MK3 = settings.startup["BRE-Carry-MK3"].value
 local Carry_MK4 = settings.startup["BRE-Carry-MK4"].value
 local Carry_MK5 = settings.startup["BRE-Carry-MK5"].value
-local Roboter_Battery = settings.startup["BRE-Roboter-Battery"].value
+local Roboter_Battery = settings.startup["BRL-BotsBatteryCapacity"].value
 
 local robot_animations = {}
 robot_animations.sparks = {

@@ -9,7 +9,7 @@ local function deepCopy(original)
     end
     return copy
 end
-local Loading_Speed = settings.startup["BRE-loading-speed"].value
+local Loading_Speed = settings.startup["BRE-Charging-speed"].value
 
 BRE_roboportmk2 = deepCopy(data.raw.roboport["roboport"])
 BRE_roboportmk2.name = "bre-roboport-mk2"
