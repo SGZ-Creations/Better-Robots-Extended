@@ -5,7 +5,7 @@ data:extend({
         icon = "__BetterRobotsLight__/graphics/icons/bre-roboport-mk2.png",
         icon_size = 64,
         subgroup = "Roboport",
-        order = "c[signal]-ab[roboport]",
+        order = "ab[roboport]",
         place_result = "bre-roboport-mk2",
         stack_size = 10,
     },
@@ -15,8 +15,10 @@ data:extend({
         icon = "__BetterRobotsLight__/graphics/icons/bre-roboport-mk3.png",
         icon_size = 64,
         subgroup = "Roboport",
-        order = "c[signal]-ac[roboport]",
+        order = "ac[roboport]",
         place_result = "bre-roboport-mk3",
         stack_size = 10,
     }
 })
+data.raw["item"]["roboport"].order = "aa[roboport]"
+data.raw["item"]["roboport"].subgroup = "Roboport"
