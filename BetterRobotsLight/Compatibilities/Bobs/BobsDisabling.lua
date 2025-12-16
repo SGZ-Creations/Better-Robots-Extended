@@ -5,25 +5,35 @@ local Recipe = data.raw.recipe
 ---@class Data.ItemPrototype
 local Item = data.raw.item
 
-
-data.raw["logistic-robot"]["logistic-robot"].next_upgrade = nil
-data.raw["logistic-robot"]["bob-logistic-robot-2"].next_upgrade = nil
-data.raw["logistic-robot"]["bob-logistic-robot-3"].next_upgrade = nil
-data.raw["logistic-robot"]["bob-logistic-robot-4"].next_upgrade = nil
-data.raw["logistic-robot"]["bob-logistic-robot-5"].next_upgrade = nil
-
-data.raw["construction-robot"]["construction-robot"].next_upgrade = nil
-data.raw["construction-robot"]["bob-construction-robot-2"].next_upgrade = nil
-data.raw["construction-robot"]["bob-construction-robot-3"].next_upgrade = nil
-data.raw["construction-robot"]["bob-construction-robot-4"].next_upgrade = nil
-data.raw["construction-robot"]["bob-construction-robot-5"].next_upgrade = nil
-
-data.raw["roboport"]["roboport"].next_upgrade = nil
-data.raw["roboport"]["bob-roboport-2"].next_upgrade = nil
-data.raw["roboport"]["bob-roboport-3"].next_upgrade = nil
-data.raw["roboport"]["bob-roboport-4"].next_upgrade = nil
+    local function Hide_Item(name)
+        local item = Item[name]
+        if item then
+            item.hidden = true
+        end
+        if not (item) then
+            log("Could not find "..name)
+        end
+    end
 
 if mods["boblogistics"] then
+    data.raw["logistic-robot"]["logistic-robot"].next_upgrade = nil
+    data.raw["logistic-robot"]["bob-logistic-robot-2"].next_upgrade = nil
+    data.raw["logistic-robot"]["bob-logistic-robot-3"].next_upgrade = nil
+    data.raw["logistic-robot"]["bob-logistic-robot-4"].next_upgrade = nil
+    data.raw["logistic-robot"]["bob-logistic-robot-5"].next_upgrade = nil
+
+    data.raw["construction-robot"]["construction-robot"].next_upgrade = nil
+    data.raw["construction-robot"]["bob-construction-robot-2"].next_upgrade = nil
+    data.raw["construction-robot"]["bob-construction-robot-3"].next_upgrade = nil
+    data.raw["construction-robot"]["bob-construction-robot-4"].next_upgrade = nil
+    data.raw["construction-robot"]["bob-construction-robot-5"].next_upgrade = nil
+
+    data.raw["roboport"]["roboport"].next_upgrade = nil
+    data.raw["roboport"]["bob-roboport-2"].next_upgrade = nil
+    data.raw["roboport"]["bob-roboport-3"].next_upgrade = nil
+    data.raw["roboport"]["bob-roboport-4"].next_upgrade = nil
+
+
     local recipes = {
         "bob-logistic-robot-2",
         "bob-logistic-robot-3",
@@ -54,26 +64,16 @@ if mods["boblogistics"] then
             data.raw.technology[tech].hidden = true
         end
     end
-end
 
-local function Hide_Item(name)
-    local item = Item[name]
-    if item then
-        item.hidden = true
-    end
-    if not (item) then
-        log("Could not find "..name)
-    end
+    Hide_Item("bob-roboport-2")
+    Hide_Item("bob-roboport-3")
+    Hide_Item("bob-roboport-4")
+    Hide_Item("bob-logistic-robot-2")
+    Hide_Item("bob-logistic-robot-3")
+    Hide_Item("bob-logistic-robot-4")
+    Hide_Item("bob-logistic-robot-5")
+    Hide_Item("bob-construction-robot-2")
+    Hide_Item("bob-construction-robot-3")
+    Hide_Item("bob-construction-robot-4")
+    Hide_Item("bob-construction-robot-5")
 end
-
-Hide_Item("bob-roboport-2")
-Hide_Item("bob-roboport-3")
-Hide_Item("bob-roboport-4")
-Hide_Item("bob-logistic-robot-2")
-Hide_Item("bob-logistic-robot-3")
-Hide_Item("bob-logistic-robot-4")
-Hide_Item("bob-logistic-robot-5")
-Hide_Item("bob-construction-robot-2")
-Hide_Item("bob-construction-robot-3")
-Hide_Item("bob-construction-robot-4")
-Hide_Item("bob-construction-robot-5")
