@@ -19,6 +19,10 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "BRE-logistic-robotics-mk1"
 			},
+			{
+				type = "unlock-recipe",
+				recipe = "bre-roboport-mk1"
+			}
 		},
 		unit = {
 			count = 1000,
@@ -158,5 +162,3 @@ data:extend({
 		order = "BRE-RoboticsAndPorts-05"
     },
 })
-
-table.insert(Tech["BRE-RoboticsAndPorts-1"].effects, {type = "unlock-recipe", recipe = "roboport"})
