@@ -37,6 +37,7 @@ local function Hide_Item(name)
         log("Could not find "..name)
     end
 end
-
-Hide_Item("construction-robot")
-Hide_Item("logistic-robot")
+if not mods["linox"]then
+    Hide_Item("construction-robot")
+    Hide_Item("logistic-robot")
+end
