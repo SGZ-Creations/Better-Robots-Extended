@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.2.0
+Version: 1.0.0
 Date: 07.12.25
   Features:
     - Forked & changed by SGZ_Creations.
@@ -7,8 +7,8 @@ Date: 07.12.25
     - Removed Recipe Checks code, recipes bloats the menu why have 2 recipes making sort of the same item.
     - Removed Robot selection setting.
   Modding:
-    - More bobs chnages if mod enabled.
-    - Metal & stars suppoort. 
-    - Vesta suppoort.
+    - More bobs changes if mod enabled.
+    - Metal & stars support. 
+    - Vesta support.
   Info:
     - Removed Settings that i found unnecessary.
