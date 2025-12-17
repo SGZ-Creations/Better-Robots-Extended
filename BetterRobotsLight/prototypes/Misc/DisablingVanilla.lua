@@ -22,13 +22,12 @@ RemoveRecipesInTech("construction-robotics", "roboport")
 RemoveRecipesInTech("logistic-robotics", "roboport")
 ]]
 
-
-Recipe["logistic-robot"].hidden = true
-Recipe["logistic-robot"].enabled = false
-Recipe["construction-robot"].hidden = true
-Recipe["construction-robot"].enabled = false
-
-
+if not mods["linox"]then
+    Recipe["logistic-robot"].hidden = true
+    Recipe["logistic-robot"].enabled = false
+    Recipe["construction-robot"].hidden = true
+    Recipe["construction-robot"].enabled = false
+end
 local function Hide_Item(name)
     local item = Item[name]
     if item then
