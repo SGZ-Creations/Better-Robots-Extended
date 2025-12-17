@@ -21,13 +21,15 @@ end
 RemoveRecipesInTech("construction-robotics", "roboport")
 RemoveRecipesInTech("logistic-robotics", "roboport")
 ]]
-
-if not mods["linox"]then
+---Failed to load mods: Error while running setup for entity prototype "linox_samarium-logistic-robot" (logistic-robot): next_upgrade target (bob-logistic-robot-2) must have an item that builds it that isn't hidden.
+if mods["linox"]then
+    data.raw["logistic-robot"]["linox_samarium-logistic-robot"].minable= nil
+end
     Recipe["logistic-robot"].hidden = true
     Recipe["logistic-robot"].enabled = false
     Recipe["construction-robot"].hidden = true
     Recipe["construction-robot"].enabled = false
-end
+
 local function Hide_Item(name)
     local item = Item[name]
     if item then
@@ -37,7 +39,6 @@ local function Hide_Item(name)
         log("Could not find "..name)
     end
 end
-if not mods["linox"]then
+
     Hide_Item("construction-robot")
     Hide_Item("logistic-robot")
-end
