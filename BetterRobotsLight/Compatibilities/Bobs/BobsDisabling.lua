@@ -16,13 +16,13 @@ local Item = data.raw.item
     end
 
 if mods["boblogistics"] then
-    data.raw["logistic-robot"]["logistic-robot"].next_upgrade = nil
+    --data.raw["logistic-robot"]["logistic-robot"].next_upgrade = nil
     data.raw["logistic-robot"]["bob-logistic-robot-2"].next_upgrade = nil
     data.raw["logistic-robot"]["bob-logistic-robot-3"].next_upgrade = nil
     data.raw["logistic-robot"]["bob-logistic-robot-4"].next_upgrade = nil
     data.raw["logistic-robot"]["bob-logistic-robot-5"].next_upgrade = nil
 
-    data.raw["construction-robot"]["construction-robot"].next_upgrade = nil
+    --data.raw["construction-robot"]["construction-robot"].next_upgrade = nil
     data.raw["construction-robot"]["bob-construction-robot-2"].next_upgrade = nil
     data.raw["construction-robot"]["bob-construction-robot-3"].next_upgrade = nil
     data.raw["construction-robot"]["bob-construction-robot-4"].next_upgrade = nil

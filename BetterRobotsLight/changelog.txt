@@ -4,7 +4,7 @@ Date: 07.12.25
   Features:
     - Forked & changed by SGZ_Creations.
   Changes:
-    - Removed Recipe Checks code, recipes bloats the menu why have 2 recipes making sort of the same item.
+    - Removed Recipe Checks code, recipes bloats in the menu. Why have 2 identical recipes making sort of the same item.
     - Removed Robot selection setting.
   Modding:
     - More bobs changes if mod enabled.
