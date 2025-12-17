@@ -1,6 +1,7 @@
 ---@class data.RecipePrototype
 local Recipe = data.raw.recipe
 
+Recipe["roboport"].ingredients = nil
 
 if mods["boblogistics"]then
 	table.insert(Recipe["BRE-construction-robotics-mk2"].ingredients, {type = "item", name = "bob-flying-robot-frame-2", amount = 1})
