@@ -24,6 +24,7 @@ RemoveRecipesInTech("logistic-robotics", "roboport")
 ---Failed to load mods: Error while running setup for entity prototype "linox_samarium-logistic-robot" (logistic-robot): next_upgrade target (bob-logistic-robot-2) must have an item that builds it that isn't hidden.
 if mods["linox"]then
     data.raw["logistic-robot"]["linox_samarium-logistic-robot"].minable= nil
+    data.raw["construction-robot"]["linox_samarium-construction-robot"].minable= nil
 end
     Recipe["logistic-robot"].hidden = true
     Recipe["logistic-robot"].enabled = false
