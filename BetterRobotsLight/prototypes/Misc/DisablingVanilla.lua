@@ -13,10 +13,11 @@ end
 if mods["dea-dia-system"]then
     data.raw["roboport"]["gas-collector-roboport"].next_upgrade = {mining_time = 0.1, result = "bre-roboport-mk1"}
 end
-    Recipe["logistic-robot"].hidden = true
-    Recipe["logistic-robot"].enabled = false
-    Recipe["construction-robot"].hidden = true
-    Recipe["construction-robot"].enabled = false
+
+Recipe["logistic-robot"].hidden = true
+Recipe["logistic-robot"].enabled = false
+Recipe["construction-robot"].hidden = true
+Recipe["construction-robot"].enabled = false
 
 local function Hide_Item(name)
     local item = Item[name]
@@ -28,5 +29,5 @@ local function Hide_Item(name)
     end
 end
 
-    Hide_Item("construction-robot")
-    Hide_Item("logistic-robot")
+Hide_Item("construction-robot")
+Hide_Item("logistic-robot")
