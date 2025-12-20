@@ -1,16 +1,16 @@
-local Loading_Speed = settings.startup["BRE-Charging-speed"].value
+local Loading_Speed = settings.startup["BRL-Charging-speed"].value
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 
-local BRE_roboportmk1 =
+local BRL_roboportmk1 =
     {
         type = "roboport",
-        name = "bre-roboport-mk1",
+        name = "BRL-roboport-mk1",
         icon = "__base__/graphics/icons/roboport.png",
         flags = {"placeable-player", "player-creation"},
         fast_replaceable_group = "roboport",
-        minable = {mining_time = 0.1, result = "bre-roboport-mk1"},
-        next_upgrade = "bre-roboport-mk2",
+        minable = {mining_time = 0.1, result = "BRL-roboport-mk1"},
+        next_upgrade = "BRL-roboport-mk2",
         max_health = 500,
         corpse = "roboport-remnants",
         dying_explosion = "roboport-explosion",
@@ -148,31 +148,31 @@ local BRE_roboportmk1 =
         }
     }
 
-local BRE_roboportmk2 = table.deepcopy(BRE_roboportmk1)
-BRE_roboportmk2.name = "bre-roboport-mk2"
-BRE_roboportmk2.fast_replaceable_group = "roboport"
-BRE_roboportmk2.next_upgrade = "bre-roboport-mk3"
-BRE_roboportmk2.logistics_radius = settings.startup["BRE-logistic-radius-mk2"].value
-BRE_roboportmk2.construction_radius = settings.startup["BRE-construction-radius-mk2"].value
-BRE_roboportmk2.minable = {mining_time = 0.5, result = "bre-roboport-mk2"}
-BRE_roboportmk2.energy_source.input_flow_limit = 16 * Loading_Speed .. "MW"
-BRE_roboportmk2.energy_source.buffer_capacity = 600 * Loading_Speed .. "MJ"
-BRE_roboportmk2.recharge_minimum = "160MJ"
-BRE_roboportmk2.energy_usage = "500kW"
-BRE_roboportmk2.charging_energy = 1 * Loading_Speed .. "MW"
-BRE_roboportmk2.robot_slots_count = 16
-BRE_roboportmk2.material_slots_count = 10
-BRE_roboportmk2.charging_offsets = {
+local BRL_roboportmk2 = table.deepcopy(BRL_roboportmk1)
+BRL_roboportmk2.name = "BRL-roboport-mk2"
+BRL_roboportmk2.fast_replaceable_group = "roboport"
+BRL_roboportmk2.next_upgrade = "BRL-roboport-mk3"
+BRL_roboportmk2.logistics_radius = settings.startup["BRL-logistic-radius-mk2"].value
+BRL_roboportmk2.construction_radius = settings.startup["BRL-construction-radius-mk2"].value
+BRL_roboportmk2.minable = {mining_time = 0.5, result = "BRL-roboport-mk2"}
+BRL_roboportmk2.energy_source.input_flow_limit = 16 * Loading_Speed .. "MW"
+BRL_roboportmk2.energy_source.buffer_capacity = 600 * Loading_Speed .. "MJ"
+BRL_roboportmk2.recharge_minimum = "160MJ"
+BRL_roboportmk2.energy_usage = "500kW"
+BRL_roboportmk2.charging_energy = 1 * Loading_Speed .. "MW"
+BRL_roboportmk2.robot_slots_count = 16
+BRL_roboportmk2.material_slots_count = 10
+BRL_roboportmk2.charging_offsets = {
 {-1.5,1.5},	{-0.5,1.5},	{0.0,1.5},	{0.5,1.5},	{1.5,1.5},
 {-1.5,0.5},										{1.5,0.5},
 {-1.5,-0.5},									{1.5,0.0},
 {-1.5,-1.0},									{1.5,-0.5},
 {-1.5,-1.5},{-0.5,-1.5},{0.0,-1.5},	{0.5,-1.5},	{1.5,-1.5}
 }
-BRE_roboportmk2.charging_station_count_affected_by_quality = true
-BRE_roboportmk2.base.layers = {
+BRL_roboportmk2.charging_station_count_affected_by_quality = true
+BRL_roboportmk2.base.layers = {
     {
-        filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk2-base.png",
+        filename = "__BetterRobotsLight__/graphics/entity/roboport/BRL-roboport-mk2-base.png",
         width = 228,
         height = 277,
         shift = util.by_pixel(2, -2.25),
@@ -187,15 +187,15 @@ BRE_roboportmk2.base.layers = {
         scale = 0.5
     }
 }
-BRE_roboportmk2.base_patch = {
-    filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk2-base-patch.png",
+BRL_roboportmk2.base_patch = {
+    filename = "__BetterRobotsLight__/graphics/entity/roboport/BRL-roboport-mk2-base-patch.png",
     priority = "medium",
     width = 138,
     height = 100,
     shift = util.by_pixel(1.5, -5),
     scale = 0.5
 }
-BRE_roboportmk2.base_animation = {
+BRL_roboportmk2.base_animation = {
     filename = "__base__/graphics/entity/roboport/roboport-base-animation.png",
     priority = "medium",
     width = 83,
@@ -205,7 +205,7 @@ BRE_roboportmk2.base_animation = {
     shift = util.by_pixel(-17.75, -71.25),
     scale = 0.5
 }
-BRE_roboportmk2.door_animation_up = {
+BRL_roboportmk2.door_animation_up = {
     filename = "__base__/graphics/entity/roboport/roboport-door-up.png",
     priority = "medium",
     width = 97,
@@ -214,7 +214,7 @@ BRE_roboportmk2.door_animation_up = {
     shift = util.by_pixel(-0.25, -39.5),
     scale = 0.5
 }
-BRE_roboportmk2.door_animation_down = {
+BRL_roboportmk2.door_animation_down = {
     filename = "__base__/graphics/entity/roboport/roboport-door-down.png",
     priority = "medium",
     width = 97,
@@ -223,7 +223,7 @@ BRE_roboportmk2.door_animation_down = {
     shift = util.by_pixel(-0.25, -19.75),
     scale = 0.5
 }
-BRE_roboportmk2.recharging_animation = {
+BRL_roboportmk2.recharging_animation = {
     filename = "__base__/graphics/entity/roboport/roboport-recharging.png",
     draw_as_glow = true,
     priority = "high",
@@ -235,20 +235,20 @@ BRE_roboportmk2.recharging_animation = {
 }
 
 
-local BRE_roboportmk3 = table.deepcopy(BRE_roboportmk1)
-BRE_roboportmk3.name = "bre-roboport-mk3"
-BRE_roboportmk3.fast_replaceable_group = "roboport"
-BRE_roboportmk3.logistics_radius = settings.startup["BRE-logistic-radius-mk3"].value
-BRE_roboportmk3.construction_radius = settings.startup["BRE-construction-radius-mk3"].value
-BRE_roboportmk3.minable = {mining_time = 1, result = "bre-roboport-mk3"}
-BRE_roboportmk3.energy_source.input_flow_limit = 48 * Loading_Speed .. "MW"
-BRE_roboportmk3.energy_source.buffer_capacity = 1200 * Loading_Speed .. "MJ"
-BRE_roboportmk3.recharge_minimum = "240MJ"
-BRE_roboportmk3.energy_usage = "1MW"
-BRE_roboportmk3.charging_energy = 2 * Loading_Speed .. "MW"
-BRE_roboportmk3.robot_slots_count = 24
-BRE_roboportmk3.material_slots_count = 10
-BRE_roboportmk3.charging_offsets = {
+local BRL_roboportmk3 = table.deepcopy(BRL_roboportmk1)
+BRL_roboportmk3.name = "BRL-roboport-mk3"
+BRL_roboportmk3.fast_replaceable_group = "roboport"
+BRL_roboportmk3.logistics_radius = settings.startup["BRL-logistic-radius-mk3"].value
+BRL_roboportmk3.construction_radius = settings.startup["BRL-construction-radius-mk3"].value
+BRL_roboportmk3.minable = {mining_time = 1, result = "BRL-roboport-mk3"}
+BRL_roboportmk3.energy_source.input_flow_limit = 48 * Loading_Speed .. "MW"
+BRL_roboportmk3.energy_source.buffer_capacity = 1200 * Loading_Speed .. "MJ"
+BRL_roboportmk3.recharge_minimum = "240MJ"
+BRL_roboportmk3.energy_usage = "1MW"
+BRL_roboportmk3.charging_energy = 2 * Loading_Speed .. "MW"
+BRL_roboportmk3.robot_slots_count = 24
+BRL_roboportmk3.material_slots_count = 10
+BRL_roboportmk3.charging_offsets = {
 {-1.5,1.5},	{-1.0,1.5},	{-0.5,1.5},	{0.0,1.5},	{0.5,1.5},	{1.0,1.5},	{1.5,1.5},
 {-1.5,1.0},																{1.5,1.0},
 {-1.5,0.5},																{1.5,0.5},
@@ -257,9 +257,9 @@ BRE_roboportmk3.charging_offsets = {
 {-1.5,-1.5},															{1.5,-1.5},
 {-1.5,-1.5},{-1.0,-1.5},{-0.5,-1.5},{0.0,-1.5},	{0.5,-1.5},	{1.0,-1.5},	{1.5,-1.5}
 }
-BRE_roboportmk3.base.layers = {
+BRL_roboportmk3.base.layers = {
     {
-        filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk3-base.png",
+        filename = "__BetterRobotsLight__/graphics/entity/roboport/BRL-roboport-mk3-base.png",
         width = 228,
         height = 277,
         shift = util.by_pixel(2, -2.25),
@@ -274,15 +274,15 @@ BRE_roboportmk3.base.layers = {
         scale = 0.5
     }
 }
-BRE_roboportmk3.base_patch = {
-    filename = "__BetterRobotsLight__/graphics/entity/roboport/bre-roboport-mk3-base-patch.png",
+BRL_roboportmk3.base_patch = {
+    filename = "__BetterRobotsLight__/graphics/entity/roboport/BRL-roboport-mk3-base-patch.png",
     priority = "medium",
     width = 138,
     height = 100,
     shift = util.by_pixel(1.5, -5),
     scale = 0.5
 }
-BRE_roboportmk3.base_animation = {
+BRL_roboportmk3.base_animation = {
     filename = "__base__/graphics/entity/roboport/roboport-base-animation.png",
     priority = "medium",
     width = 83,
@@ -292,7 +292,7 @@ BRE_roboportmk3.base_animation = {
     shift = util.by_pixel(-17.75, -71.25),
     scale = 0.5
 }
-BRE_roboportmk3.door_animation_up = {
+BRL_roboportmk3.door_animation_up = {
     filename = "__base__/graphics/entity/roboport/roboport-door-up.png",
     priority = "medium",
     width = 97,
@@ -301,7 +301,7 @@ BRE_roboportmk3.door_animation_up = {
     shift = util.by_pixel(-0.25, -39.5),
     scale = 0.5
 }
-BRE_roboportmk3.door_animation_down = {
+BRL_roboportmk3.door_animation_down = {
     filename = "__base__/graphics/entity/roboport/roboport-door-down.png",
     priority = "medium",
     width = 97,
@@ -310,7 +310,7 @@ BRE_roboportmk3.door_animation_down = {
     shift = util.by_pixel(-0.25, -19.75),
     scale = 0.5
 }
-BRE_roboportmk3.recharging_animation =  {
+BRL_roboportmk3.recharging_animation =  {
     filename = "__base__/graphics/entity/roboport/roboport-recharging.png",
     draw_as_glow = true,
     priority = "high",
@@ -321,10 +321,10 @@ BRE_roboportmk3.recharging_animation =  {
     animation_speed = 0.5,
 }
 data:extend({
-    BRE_roboportmk1,
-    BRE_roboportmk2,
-    BRE_roboportmk3,
+    BRL_roboportmk1,
+    BRL_roboportmk2,
+    BRL_roboportmk3,
 })
 
 data.raw.roboport["roboport"].fast_replaceable_group = "roboport"
-data.raw.roboport["roboport"].next_upgrade = "bre-roboport-mk2"
+data.raw.roboport["roboport"].next_upgrade = "BRL-roboport-mk2"

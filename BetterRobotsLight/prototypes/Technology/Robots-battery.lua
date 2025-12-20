@@ -3,9 +3,9 @@ local metallurgic_science_pack = nil
 local agricultural_science_pack = nil
 local space_science_pack = nil
 local Anforderung = {
-F1 = {"BRE-robot-battery-7"},
-F2 = {"BRE-robot-battery-10"},
-F3 = {"BRE-robot-battery-13"},
+F1 = {"BRL-robot-battery-7"},
+F2 = {"BRL-robot-battery-10"},
+F3 = {"BRL-robot-battery-13"},
 }
 
 if mods["space-age"] then
@@ -58,7 +58,7 @@ data:extend
 ({
     {
         type = "technology",
-        name = "BRE-robot-battery-1",
+        name = "BRL-robot-battery-1",
         icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = {"robotics"},
@@ -84,10 +84,10 @@ data:extend
     },
     {
         type = "technology",
-        name = "BRE-robot-battery-4",
+        name = "BRL-robot-battery-4",
         icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
-        prerequisites = {"BRE-robot-battery-1"},
+        prerequisites = {"BRL-robot-battery-1"},
         effects = {
             {
                 type = "worker-robot-battery",
@@ -110,10 +110,10 @@ data:extend
     },
     {
         type = "technology",
-        name = "BRE-robot-battery-7",
+        name = "BRL-robot-battery-7",
         icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
-        prerequisites = {"BRE-robot-battery-4"},
+        prerequisites = {"BRL-robot-battery-4"},
         effects = {
             {
                 type = "worker-robot-battery",
@@ -137,7 +137,7 @@ data:extend
     },
     {
         type = "technology",
-        name = "BRE-robot-battery-10",
+        name = "BRL-robot-battery-10",
         icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = Anforderung.F1,
@@ -158,7 +158,7 @@ data:extend
     },
     {
         type = "technology",
-        name = "BRE-robot-battery-13",
+        name = "BRL-robot-battery-13",
         icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = Anforderung.F2,
@@ -179,7 +179,7 @@ data:extend
     },
     {
         type = "technology",
-        name = "BRE-robot-battery-16",
+        name = "BRL-robot-battery-16",
         icon = "__BetterRobotsLight__/graphics/RobotBattery/worker-robot-battery.png",
         icon_size = 128,
         prerequisites = Anforderung.F3,

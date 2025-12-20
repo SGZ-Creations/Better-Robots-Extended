@@ -10,7 +10,7 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "BRE-Charging-speed",
+		name = "BRL-Charging-speed",
 		order = "ee",
 		setting_type = "startup",
 		default_value = 1,

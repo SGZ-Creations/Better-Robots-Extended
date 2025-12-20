@@ -1,7 +1,7 @@
 data:extend({
 	{
         type = "double-setting",
-        name = "BRE-Speed-MK2",
+        name = "BRL-Speed-MK2",
 		order = "ca",
         setting_type = "startup",
         default_value = 1,
@@ -10,7 +10,7 @@ data:extend({
     },
     {
         type = "double-setting",
-        name = "BRE-Speed-MK3",
+        name = "BRL-Speed-MK3",
 		order = "cb",
         setting_type = "startup",
         default_value = 2,
@@ -19,7 +19,7 @@ data:extend({
     },
     {
         type = "double-setting",
-        name = "BRE-Speed-MK4",
+        name = "BRL-Speed-MK4",
 		order = "cc",
         setting_type = "startup",
         default_value = 3,
@@ -28,7 +28,7 @@ data:extend({
     },
     {
         type = "double-setting",
-        name = "BRE-Speed-MK5",
+        name = "BRL-Speed-MK5",
 		order = "cd",
         setting_type = "startup",
         default_value = 4,

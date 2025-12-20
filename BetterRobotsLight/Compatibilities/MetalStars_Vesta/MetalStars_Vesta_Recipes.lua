@@ -6,35 +6,35 @@ local SS = settings.startup
 if mods["metal-and-stars"] and not mods["skewer_planet_vesta"] then
 	Recipe["antimatter-logistic-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-logistic-robotics-mk5", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk5", amount = 1},
 	}
 	Recipe["antimatter-construction-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-construction-robotics-mk5", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk5", amount = 1},
 	}
 	Recipe["antimatter-logistic-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-logistic-robotics-mk4", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk4", amount = 1},
 	}
 	Recipe["antimatter-construction-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-construction-robotics-mk4", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk4", amount = 1},
 	}
 	Recipe["antimatter-logistic-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-logistic-robotics-mk3", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk3", amount = 1},
 	}
 	Recipe["antimatter-construction-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-construction-robotics-mk3", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk3", amount = 1},
 	}
 	Recipe["antimatter-logistic-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-logistic-robotics-mk2", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk2", amount = 1},
 	}
 	Recipe["antimatter-construction-robot"].ingredients = {
 		{type ="item", name="antimatter", amount = 1},
-		{type ="item", name="BRE-construction-robotics-mk2", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk2", amount = 1},
 	}
 end
 
@@ -50,42 +50,42 @@ if mods["metal-and-stars"]and mods["skewer_planet_vesta"] then
 		}
 	end
 	Recipe["fusion-logistic-robot"].ingredients = {
-		{type ="item", name="BRE-logistic-robotics-mk5", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk5", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}
 	Recipe["fusion-construction-robot"].ingredients = {
-		{type ="item", name="BRE-construction-robotics-mk5", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk5", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}
 	Recipe["fusion-logistic-robot"].ingredients = {
-		{type ="item", name="BRE-logistic-robotics-mk4", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk4", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}
 	Recipe["fusion-construction-robot"].ingredients = {
-		{type ="item", name="BRE-construction-robotics-mk4", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk4", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}
 	Recipe["fusion-logistic-robot"].ingredients = {
-		{type ="item", name="BRE-logistic-robotics-mk3", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk3", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}
 	Recipe["fusion-construction-robot"].ingredients = {
-		{type ="item", name="BRE-construction-robotics-mk3", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk3", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}
 	Recipe["fusion-logistic-robot"].ingredients = {
-		{type ="item", name="BRE-logistic-robotics-mk2", amount = 1},
+		{type ="item", name="BRL-logistic-robotics-mk2", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}
 	Recipe["fusion-construction-robot"].ingredients = {
-		{type ="item", name="BRE-construction-robotics-mk2", amount = 1},
+		{type ="item", name="BRL-construction-robotics-mk2", amount = 1},
 		{type ="item", name="ske_fusion_framework", amount = 1},
 		{type ="fluid", name="ske_supermagnetic", amount = 1},
 	}

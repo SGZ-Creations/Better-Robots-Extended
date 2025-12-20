@@ -5,23 +5,23 @@ local ICON = "__base__/graphics/technology/construction-robotics.png"
 data:extend({
 	{
 		type = "technology",
-		name = "BRE-RoboticsAndPorts-1",
-		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk1"},
+		name = "BRL-RoboticsAndPorts-1",
+		localised_description = {"technology-description.BRL-RoboticsAndPorts-mk1"},
 		icon = ICON,
 		icon_size = 256,
 		prerequisites = {"robotics"},
 		effects = {
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-construction-robotics-mk1"
+				recipe = "BRL-construction-robotics-mk1"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-logistic-robotics-mk1"
+				recipe = "BRL-logistic-robotics-mk1"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "bre-roboport-mk1"
+				recipe = "BRL-roboport-mk1"
 			}
 		},
 		unit = {
@@ -32,23 +32,23 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-RoboticsAndPorts-01"
+		order = "BRL-RoboticsAndPorts-01"
 	},
 	{
 		type = "technology",
-		name = "BRE-RoboticsAndPorts-2",
-		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk2"},
+		name = "BRL-RoboticsAndPorts-2",
+		localised_description = {"technology-description.BRL-RoboticsAndPorts-mk2"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-RoboticsAndPorts-1"},
+		prerequisites = {"BRL-RoboticsAndPorts-1"},
 		effects = {
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-construction-robotics-mk2"
+				recipe = "BRL-construction-robotics-mk2"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-logistic-robotics-mk2"
+				recipe = "BRL-logistic-robotics-mk2"
 			}
 		},
 		unit = {
@@ -61,27 +61,27 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-RoboticsAndPorts-02"
+		order = "BRL-RoboticsAndPorts-02"
 	},
 	{
 		type = "technology",
-		name = "BRE-RoboticsAndPorts-3",
-		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk3"},
+		name = "BRL-RoboticsAndPorts-3",
+		localised_description = {"technology-description.BRL-RoboticsAndPorts-mk3"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-RoboticsAndPorts-2"},
+		prerequisites = {"BRL-RoboticsAndPorts-2"},
 		effects = {
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-construction-robotics-mk3"
+				recipe = "BRL-construction-robotics-mk3"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-logistic-robotics-mk3"
+				recipe = "BRL-logistic-robotics-mk3"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "bre-roboport-mk2"
+				recipe = "BRL-roboport-mk2"
 			}
 		},
 		unit = {
@@ -95,23 +95,23 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-RoboticsAndPorts-03"
+		order = "BRL-RoboticsAndPorts-03"
     },
 	{
 		type = "technology",
-		name = "BRE-RoboticsAndPorts-4",
-		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk4"},
+		name = "BRL-RoboticsAndPorts-4",
+		localised_description = {"technology-description.BRL-RoboticsAndPorts-mk4"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-RoboticsAndPorts-3"},
+		prerequisites = {"BRL-RoboticsAndPorts-3"},
 		effects = {
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-construction-robotics-mk4"
+				recipe = "BRL-construction-robotics-mk4"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-logistic-robotics-mk4"
+				recipe = "BRL-logistic-robotics-mk4"
 			}
 		},
 		unit = {
@@ -125,26 +125,26 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-RoboticsAndPorts-04"
+		order = "BRL-RoboticsAndPorts-04"
     },
 	{
 		type = "technology",
-		name = "BRE-RoboticsAndPorts-5",
-		localised_description = {"technology-description.BRE-RoboticsAndPorts-mk5"},
+		name = "BRL-RoboticsAndPorts-5",
+		localised_description = {"technology-description.BRL-RoboticsAndPorts-mk5"},
 		icon = ICON,
 		icon_size = 256,
-		prerequisites = {"BRE-RoboticsAndPorts-4"},
+		prerequisites = {"BRL-RoboticsAndPorts-4"},
 		effects = {
 			{
 				type = "unlock-recipe",
-				recipe = "BRE-construction-robotics-mk5"
+				recipe = "BRL-construction-robotics-mk5"
 			},{
 				type = "unlock-recipe",
-				recipe = "BRE-logistic-robotics-mk5"
+				recipe = "BRL-logistic-robotics-mk5"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "bre-roboport-mk3"
+				recipe = "BRL-roboport-mk3"
 			}
 		},
 		unit = {
@@ -159,6 +159,6 @@ data:extend({
 			},
 			time = 30
 		},
-		order = "BRE-RoboticsAndPorts-05"
+		order = "BRL-RoboticsAndPorts-05"
     },
 })

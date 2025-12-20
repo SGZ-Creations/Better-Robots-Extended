@@ -1,7 +1,7 @@
 data:extend({
 {
 		type = "int-setting",
-		name = "BRE-logistic-radius-mk2",
+		name = "BRL-logistic-radius-mk2",
 		order = "ea",
 		setting_type = "startup",
 		default_value = 50,
@@ -10,7 +10,7 @@ data:extend({
 	},
 	{
 		type = "int-setting",
-		name = "BRE-construction-radius-mk2",
+		name = "BRL-construction-radius-mk2",
 		order = "eb",
 		setting_type = "startup",
 		default_value = 110,
@@ -19,7 +19,7 @@ data:extend({
 	},
 	{
 		type = "int-setting",
-		name = "BRE-logistic-radius-mk3",
+		name = "BRL-logistic-radius-mk3",
 		order = "ec",
 		setting_type = "startup",
 		default_value = 100,
@@ -28,7 +28,7 @@ data:extend({
 	},
 	{
 		type = "int-setting",
-		name = "BRE-construction-radius-mk3",
+		name = "BRL-construction-radius-mk3",
 		order = "ed",
 		setting_type = "startup",
 		default_value = 250,

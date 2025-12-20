@@ -7,11 +7,11 @@ local Tech = data.raw["technology"]
 
 ---Failed to load mods: Error while running setup for entity prototype "linox_samarium-logistic-robot" (logistic-robot): next_upgrade target (bob-logistic-robot-2) must have an item that builds it that isn't hidden.
 if mods["linox"]then
-    data.raw["logistic-robot"]["linox_samarium-logistic-robot"].next_upgrade = {mining_time = 0.1, result = "BRE-logistic-robotics-mk1"}
-    data.raw["construction-robot"]["linox_samarium-construction-robot"].next_upgrade = {mining_time = 0.1, result = "BRE-construction-robotics-mk1"}
+    data.raw["logistic-robot"]["linox_samarium-logistic-robot"].next_upgrade = {mining_time = 0.1, result = "BRL-logistic-robotics-mk1"}
+    data.raw["construction-robot"]["linox_samarium-construction-robot"].next_upgrade = {mining_time = 0.1, result = "BRL-construction-robotics-mk1"}
 end
 if mods["dea-dia-system"]then
-    data.raw["roboport"]["gas-collector-roboport"].next_upgrade = {mining_time = 0.1, result = "bre-roboport-mk1"}
+    data.raw["roboport"]["gas-collector-roboport"].next_upgrade = {mining_time = 0.1, result = "BRL-roboport-mk1"}
 end
 
 Recipe["logistic-robot"].hidden = true

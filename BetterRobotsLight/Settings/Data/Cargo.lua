@@ -1,7 +1,7 @@
 data:extend({
 	{
         type = "int-setting",
-        name = "BRE-Carry-MK2",
+        name = "BRL-Carry-MK2",
 		order = "da",
         setting_type = "startup",
         default_value = 1,
@@ -10,7 +10,7 @@ data:extend({
     },
     {
         type = "int-setting",
-        name = "BRE-Carry-MK3",
+        name = "BRL-Carry-MK3",
 		order = "db",
         setting_type = "startup",
         default_value = 2,
@@ -19,7 +19,7 @@ data:extend({
     },
     {
         type = "int-setting",
-        name = "BRE-Carry-MK4",
+        name = "BRL-Carry-MK4",
 		order = "dc",
         setting_type = "startup",
         default_value = 2,
@@ -28,7 +28,7 @@ data:extend({
     },
     {
         type = "int-setting",
-        name = "BRE-Carry-MK5",
+        name = "BRL-Carry-MK5",
 		order = "dd",
         setting_type = "startup",
         default_value = 3,
