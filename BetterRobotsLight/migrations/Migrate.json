@@ -14,6 +14,21 @@
         ["BRE-logistic-robotics-mk4", "BRL-logistic-robotics-mk4"],
         ["BRE-logistic-robotics-mk5", "BRL-logistic-robotics-mk5"]
     ],
+    "recipe": [
+        ["bre-roboport-mk1", "BRL-roboport-mk1"],
+        ["bre-roboport-mk2", "BRL-roboport-mk2"],
+        ["bre-roboport-mk3", "BRL-roboport-mk3"],
+        ["bre-logistic-robotics-mk1", "BRL-logistic-robotics-mk1"],
+        ["bre-logistic-robotics-mk2", "BRL-logistic-robotics-mk2"],
+        ["bre-logistic-robotics-mk3", "BRL-logistic-robotics-mk3"],
+        ["bre-logistic-robotics-mk4", "BRL-logistic-robotics-mk4"],
+        ["bre-logistic-robotics-mk5", "BRL-logistic-robotics-mk5"],
+        ["bre-construction-robotics-mk1", "BRL-construction-robotics-mk1"],
+        ["bre-construction-robotics-mk2", "BRL-construction-robotics-mk2"],
+        ["bre-construction-robotics-mk3", "BRL-construction-robotics-mk3"],
+        ["bre-construction-robotics-mk4", "BRL-construction-robotics-mk4"],
+        ["bre-construction-robotics-mk5", "BRL-construction-robotics-mk5"]
+    ],
     "entity": [
         ["bre-roboport-mk1", "BRL-roboport-mk1"],
         ["bre-roboport-mk2", "BRL-roboport-mk2"],
@@ -33,10 +48,29 @@
         ["BRE-RoboticsAndPorts-1", "BRL-RoboticsAndPorts-1"],
         ["BRE-RoboticsAndPorts-2", "BRL-RoboticsAndPorts-2"],
         ["BRE-RoboticsAndPorts-3", "BRL-RoboticsAndPorts-3"],
-        ["BRE-robot-battery-4", "BRL-worker-robots-storage-4"],
-        ["BRE-robot-battery-7", "BRL-worker-robots-storage-7"],
-        ["BRE-robot-battery-10", "BRL-worker-robots-storage-10"],
-        ["BRE-robot-battery-13", "BRL-worker-robots-storage-13"],
-        ["BRE-robot-battery-16", "BRL-worker-robots-storage-16"]
+        
+        ["BRE-logistic-robotics-1", "BRL-RoboticsAndPorts-1"],
+        ["BRE-logistic-robotics-2", "BRL-RoboticsAndPorts-2"],
+        ["BRE-logistic-robotics-3", "BRL-RoboticsAndPorts-3"],
+        ["BRE-logistic-robotics-4", "BRL-RoboticsAndPorts-4"],
+        ["BRE-logistic-robotics-5", "BRL-RoboticsAndPorts-5"],
+
+        ["BRE-construction-robotics-1", "BRL-RoboticsAndPorts-1"],
+        ["BRE-construction-robotics-2", "BRL-RoboticsAndPorts-2"],
+        ["BRE-construction-robotics-3", "BRL-RoboticsAndPorts-3"],
+        ["BRE-construction-robotics-4", "BRL-RoboticsAndPorts-4"],
+        ["BRE-construction-robotics-5", "BRL-RoboticsAndPorts-5"],
+
+        ["BRE-worker-robots-4", "BRL-worker-robots-storage-4"],
+        ["BRE-worker-robots-7", "BRL-worker-robots-storage-7"],
+        ["BRE-worker-robots-10", "BRL-worker-robots-storage-10"],
+        ["BRE-worker-robots-13", "BRL-worker-robots-storage-13"],
+        ["BRE-worker-robots-16", "BRL-worker-robots-storage-16"],
+
+        ["BRE-robot-battery-4", "BRL-robots-battery-4"],
+        ["BRE-robot-battery-7", "BRL-robots-battery-7"],
+        ["BRE-robot-battery-10", "BRL-robots-battery-10"],
+        ["BRE-robot-battery-13", "BRL-robots-battery-13"],
+        ["BRE-robot-battery-16", "BRL-robots-battery-16"]
     ]
 }

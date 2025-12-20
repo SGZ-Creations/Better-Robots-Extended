@@ -1,38 +1,56 @@
 data:extend({
-{
+	{
+		type = "int-setting",
+		name = "LogisticsRadiusMK1",
+		order = "Logistic1",
+		setting_type = "startup",
+		default_value = 100,
+		minimum_value = 10,
+		maximum_value = 1000
+	},
+	{
+		type = "int-setting",
+		name = "ConstructionRadiusMK1",
+		order = "ConstructionRadius1",
+		setting_type = "startup",
+		default_value = 150,
+		minimum_value = 10,
+		maximum_value = 1000
+	},
+	{
 		type = "int-setting",
 		name = "BRL-logistic-radius-mk2",
-		order = "ea",
+		order = "Logistic2",
 		setting_type = "startup",
-		default_value = 50,
-		minimum_value = 25,
-		maximum_value = 5000
+		default_value = 200,
+		minimum_value = 10,
+		maximum_value = 2500
 	},
 	{
 		type = "int-setting",
 		name = "BRL-construction-radius-mk2",
-		order = "eb",
+		order = "ConstructionRadius2",
 		setting_type = "startup",
-		default_value = 110,
-		minimum_value = 55,
-		maximum_value = 5000
+		default_value = 250,
+		minimum_value = 10,
+		maximum_value = 2500
 	},
 	{
 		type = "int-setting",
 		name = "BRL-logistic-radius-mk3",
-		order = "ec",
+		order = "Logistic3",
 		setting_type = "startup",
-		default_value = 100,
-		minimum_value = 25,
+		default_value = 300,
+		minimum_value = 10,
 		maximum_value = 5000
 	},
 	{
 		type = "int-setting",
 		name = "BRL-construction-radius-mk3",
-		order = "ed",
+		order = "ConstructionRadius3",
 		setting_type = "startup",
-		default_value = 250,
-		minimum_value = 50,
+		default_value = 350,
+		minimum_value = 10,
 		maximum_value = 5000
 	},
 })

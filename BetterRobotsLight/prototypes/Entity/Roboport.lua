@@ -1,3 +1,5 @@
+---@class LuaSettings
+local SS = settings.startup
 local Loading_Speed = settings.startup["BRL-Charging-speed"].value
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -36,8 +38,8 @@ local BRL_roboportmk1 =
         recharge_minimum = "40MJ",
         energy_usage = "50kW",
         charging_energy = "500kW",
-        logistics_radius = 25,
-        construction_radius = 55,
+        logistics_radius = SS["LogisticsRadiusMK1"].value,
+        construction_radius = SS["ConstructionRadiusMK1"].value,
         charge_approach_distance = 5,
         robot_slots_count = 7,
         material_slots_count = 7,
