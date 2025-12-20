@@ -13,7 +13,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-logistic-robotics-mk2",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-logistic-robot-mk2.png",
+		icon = "__BetterRobotsLight__/graphics/icons/logistic-robot-mk2.png",
 		icon_size = 64,
 		subgroup = "LogisticRobotics",
 		order = "a[robot]-ab[logistic-robot]",
@@ -24,7 +24,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-logistic-robotics-mk3",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-logistic-robot-mk3.png",
+		icon = "__BetterRobotsLight__/graphics/icons/logistic-robot-mk3.png",
 		icon_size = 64,
 		subgroup = "LogisticRobotics",
 		order = "a[robot]-ac[logistic-robot]",
@@ -35,7 +35,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-logistic-robotics-mk4",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-logistic-robot-mk4.png",
+		icon = "__BetterRobotsLight__/graphics/icons/logistic-robot-mk4.png",
 		icon_size = 64,
 		subgroup = "LogisticRobotics",
 		order = "a[robot]-ad[logistic-robot]",
@@ -46,7 +46,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-logistic-robotics-mk5",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-logistic-robot-mk5.png",
+		icon = "__BetterRobotsLight__/graphics/icons/logistic-robot-mk5.png",
 		icon_size = 64,
 		subgroup = "LogisticRobotics",
 		order = "a[robot]-ae[logistic-robot]",

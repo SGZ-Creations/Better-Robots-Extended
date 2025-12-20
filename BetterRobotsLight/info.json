@@ -1,6 +1,6 @@
 {
 	"name": "BetterRobotsLight",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"title": "BetterRobotsLight",
 	"author": "Nick1Z2, SGZ_Creations",
 	"description": "Adding Better Robots & Roboports",
@@ -9,6 +9,13 @@
 		"base >= 2.0",
 		"? quality",
 		"? space-age",
+		"? boblogistics",
+		"? linox",
+		"? metal-and-stars",
+		"? skewer_planet_vesta",
+		"(?) bobelectronics",
+		"(?) bobrevamp",
+		"(?) bobplates",
         "! Better_Robots_Extended"
 	]
 }

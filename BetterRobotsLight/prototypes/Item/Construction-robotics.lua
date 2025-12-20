@@ -14,7 +14,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-construction-robotics-mk2",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-construction-robot-mk2.png",
+		icon = "__BetterRobotsLight__/graphics/icons/construction-robot-mk2.png",
 		icon_size = 64,
 		subgroup = "ConstructionRobotics",
 		order = "a[robot]-bb[construction-robot]",
@@ -25,7 +25,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-construction-robotics-mk3",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-construction-robot-mk3.png",
+		icon = "__BetterRobotsLight__/graphics/icons/construction-robot-mk3.png",
 		icon_size = 64,
 		subgroup = "ConstructionRobotics",
 		order = "a[robot]-bc[construction-robot]",
@@ -36,7 +36,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-construction-robotics-mk4",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-construction-robot-mk4.png",
+		icon = "__BetterRobotsLight__/graphics/icons/construction-robot-mk4.png",
 		icon_size = 64,
 		subgroup = "ConstructionRobotics",
 		order = "a[robot]-bd[construction-robot]",
@@ -47,7 +47,7 @@ data:extend({
 	{
 		type = "item",
 		name = "BRL-construction-robotics-mk5",
-		icon = "__BetterRobotsLight__/graphics/icons/BRL-construction-robot-mk5.png",
+		icon = "__BetterRobotsLight__/graphics/icons/construction-robot-mk5.png",
 		icon_size = 64,
 		subgroup = "ConstructionRobotics",
 		order = "a[robot]-be[construction-robot]",

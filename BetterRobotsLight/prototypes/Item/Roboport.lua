@@ -17,7 +17,7 @@ data:extend({
     {
         type = "item",
         name = "BRL-roboport-mk2",
-        icon = "__BetterRobotsLight__/graphics/icons/BRL-roboport-mk2.png",
+        icon = "__BetterRobotsLight__/graphics/icons/roboport-mk2.png",
         icon_size = 64,
         subgroup = "Roboport",
         order = "c[signal]-ab[roboport]",
@@ -31,7 +31,7 @@ data:extend({
     {
         type = "item",
         name = "BRL-roboport-mk3",
-        icon = "__BetterRobotsLight__/graphics/icons/BRL-roboport-mk3.png",
+        icon = "__BetterRobotsLight__/graphics/icons/roboport-mk3.png",
         icon_size = 64,
         subgroup = "Roboport",
         order = "c[signal]-ac[roboport]",
