@@ -5,6 +5,7 @@ data:extend({
 		name = "BRL-construction-robotics-mk1",
 		enabled = false,
 		allow_quality = true,
+		order = "A[robot]-AA[1-construction-bot]",
 		ingredients = {
 			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "electronic-circuit", amount = 1}
@@ -16,6 +17,7 @@ data:extend({
 		name = "BRL-construction-robotics-mk2",
 		enabled = false,
 		allow_quality = true,
+		order = "A[robot]-AB[1-construction-bot]",
 		ingredients = {
 			{type = "item", name = "BRL-construction-robotics-mk1", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
@@ -28,8 +30,8 @@ data:extend({
 		name = "BRL-construction-robotics-mk3",
 		enabled = false,
         allow_quality = true,
-		ingredients =
-		{
+		order = "A[robot]-AC[1-construction-bot]",
+		ingredients = {
 			{type = "item", name = "BRL-construction-robotics-mk2", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "advanced-circuit", amount = 1},
@@ -41,8 +43,8 @@ data:extend({
 		name = "BRL-construction-robotics-mk4",
 		enabled = false,
         allow_quality = true,
-		ingredients =
-		{
+		order = "A[robot]-AD[1-construction-bot]",
+		ingredients = {
 			{type = "item", name = "BRL-construction-robotics-mk3", amount = 1},
 			{type = "item", name = "low-density-structure", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
@@ -55,6 +57,7 @@ data:extend({
 		name = "BRL-construction-robotics-mk5",
 		enabled = false,
         allow_quality = true,
+		order = "A[robot]-AE[1-construction-bot]",
 		ingredients = {
 			{type = "item", name = "BRL-construction-robotics-mk4", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
@@ -68,6 +71,7 @@ data:extend({
 		name = "BRL-logistic-robotics-mk1",
 		enabled = false,
 		allow_quality = true,
+		order = "A[robot]-AA[1-logistic-bot]",
 		ingredients = {
 			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "electronic-circuit", amount = 1},
@@ -79,6 +83,7 @@ data:extend({
 		name = "BRL-logistic-robotics-mk2",
 		enabled = false,
 		allow_quality = true,
+		order = "A[robot]-AB[1-logistic-bot]",
 		ingredients = {
 			{type = "item", name = "BRL-logistic-robotics-mk1", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
@@ -91,8 +96,8 @@ data:extend({
 		name = "BRL-logistic-robotics-mk3",
 		enabled = false,
         allow_quality = true,
-		ingredients =
-		{
+		order = "A[robot]-AC[1-logistic-bot]",
+		ingredients = {
 			{type = "item", name = "BRL-logistic-robotics-mk2", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "advanced-circuit", amount = 1},
@@ -104,8 +109,8 @@ data:extend({
 		name = "BRL-logistic-robotics-mk4",
 		enabled = false,
         allow_quality = true,
-		ingredients =
-		{
+		order = "A[robot]-AD[1-logistic-bot]",
+		ingredients = {
 			{type = "item", name = "BRL-logistic-robotics-mk3", amount = 1},
 			{type = "item", name = "low-density-structure", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
@@ -118,8 +123,8 @@ data:extend({
 		name = "BRL-logistic-robotics-mk5",
 		enabled = false,
         allow_quality = true,
-		ingredients =
-		{
+		order = "A[robot]-AE[1-logistic-bot]",
+		ingredients = {
 			{type = "item", name = "BRL-logistic-robotics-mk4", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "low-density-structure", amount = 1},
