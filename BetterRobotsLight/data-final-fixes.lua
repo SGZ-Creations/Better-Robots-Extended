@@ -1,3 +1,3 @@
-require("prototypes.Misc.DisablingVanilla")
-require("prototypes.Misc.DisablingModContent")
+require("prototypes.Misc.HidingDisablingFunction")
+require("prototypes.Misc.HidingDisablingModContent")
 require("Compatibilities.Bobs.BobRecipesFixes")

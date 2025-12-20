@@ -5,6 +5,7 @@ local Recipe = data.raw.recipe
 ---@class Data.TechnologyPrototype
 local Tech = data.raw["technology"]
 
+
 Recipe["roboport"].hidden = true
 Recipe["roboport"].enabled = false
 Recipe["logistic-robot"].hidden = true
@@ -25,3 +26,12 @@ end
 Hide_Item("construction-robot")
 Hide_Item("logistic-robot")
 Hide_Item("roboport")
+
+if mods["linox"]then
+    Recipe["linox_samarium-logistic-robot"].hidden = true
+    Recipe["linox_samarium-logistic-robot"].enabled = false
+    Recipe["linox_samarium-construction-robot"].hidden = true
+    Recipe["linox_samarium-construction-robot"].enabled = false
+    Hide_Item("linox_samarium-logistic-robot")
+    Hide_Item("linox_samarium-construction-robot")
+end
