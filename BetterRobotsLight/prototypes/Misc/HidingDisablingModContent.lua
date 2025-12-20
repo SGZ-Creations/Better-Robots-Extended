@@ -15,8 +15,8 @@ if mods["linox"]then
         {type = "item", name = "samarium", amount = 10})
     table.insert(Recipe["BRL-construction-robotics-mk5"].ingredients,
         {type = "item", name = "samarium", amount = 10})
-    --table.insert(Tech["BRL-RoboticsAndPorts-5"].unit.ingredients,{"linox-item_lava-card", 1})
-    --table.insert(Tech["BRL-RoboticsAndPorts-5"].unit.ingredients,{"linox-item_rare-earth-data-card", 1})
+    table.insert(Tech["BRL-RoboticsAndPorts-5"].unit.ingredients, {"linox-item_lava-data-card", 1})
+    table.insert(Tech["BRL-RoboticsAndPorts-5"].unit.ingredients, {"linox-item_rare-earth-data-card", 1})
 end
 if mods["dea-dia-system"]then
     data.raw["roboport"]["gas-collector-roboport"].next_upgrade = nil
