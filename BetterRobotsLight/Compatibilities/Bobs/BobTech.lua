@@ -19,4 +19,17 @@ if mods["boblogistics"] then
 	Tech["bob-robots-4"].prerequisites = nil
 	Tech["bob-robots-4"].dependencies = nil
 	Tech["bob-robots-4"].hidden = true
+
+
+	Tech["bob-robots-3"].prerequisites = nil
+	Tech["bob-robots-4"].prerequisites = nil
+
+	table.insert(Tech["BRL-RoboticsAndPorts-2"].prerequisites, "bob-robotics-2")
+	table.insert(Tech["BRL-RoboticsAndPorts-3"].prerequisites, "bob-robotics-3")
+	table.insert(Tech["BRL-RoboticsAndPorts-4"].prerequisites, "bob-robotics-4")
+
+	table.insert(Tech["bob-robotics-3"].unit.ingredients, {"automation-science-pack", 1})
+	table.insert(Tech["bob-robotics-3"].unit.ingredients, {"logistic-science-pack", 1})
+	table.insert(Tech["bob-robotics-3"].unit.ingredients, {"chemical-science-pack", 1})
+	table.insert(Tech["bob-robotics-3"].unit.ingredients, {"production-science-pack", 1})
 end
