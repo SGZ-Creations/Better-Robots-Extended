@@ -1,10 +1,12 @@
 local hit_effects = require ("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 local simulations = require("__base__.prototypes.factoriopedia-simulations")
+local Speed_MK1 = settings.startup["BRL-Speed-MK1"].value
 local Speed_MK2 = settings.startup["BRL-Speed-MK2"].value
 local Speed_MK3 = settings.startup["BRL-Speed-MK3"].value
 local Speed_MK4 = settings.startup["BRL-Speed-MK4"].value
 local Speed_MK5 = settings.startup["BRL-Speed-MK5"].value
+local Carry_MK1 = settings.startup["BRL-Carry-MK1"].value
 local Carry_MK2 = settings.startup["BRL-Carry-MK2"].value
 local Carry_MK3 = settings.startup["BRL-Carry-MK3"].value
 local Carry_MK4 = settings.startup["BRL-Carry-MK4"].value
@@ -105,8 +107,8 @@ data:extend({
         damaged_trigger_effect = hit_effects.flying_robot(),
         dying_explosion = "construction-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_construction_robot,
-        max_payload_size = 1,
-        speed = 0.06,
+        max_payload_size = Carry_MK1,
+        speed = 0.05 * Speed_MK1,
         max_energy = "3MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.2,
@@ -243,7 +245,7 @@ data:extend({
         dying_explosion = "construction-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_construction_robot,
         max_payload_size = Carry_MK2,
-        speed = 0.06 * Speed_MK2,
+        speed = 0.05 * Speed_MK2,
         max_energy = 3.5 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.15,
@@ -381,7 +383,7 @@ data:extend({
         dying_explosion = "construction-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_construction_robot,
         max_payload_size = Carry_MK3,
-        speed = 0.06 * Speed_MK3,
+        speed = 0.05 * Speed_MK3,
         max_energy = 4.0 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.1,
@@ -520,7 +522,7 @@ data:extend({
         dying_explosion = "construction-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_construction_robot,
         max_payload_size = Carry_MK4,
-        speed = 0.06 * Speed_MK4,
+        speed = 0.05 * Speed_MK4,
         max_energy = 5.0 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.2,
@@ -659,7 +661,7 @@ data:extend({
         dying_explosion = "construction-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_construction_robot,
         max_payload_size = Carry_MK5,
-        speed = 0.06 * Speed_MK5,
+        speed = 0.05 * Speed_MK5,
         max_energy = 6.0 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.8,
@@ -918,7 +920,7 @@ data:extend({
         dying_explosion = "logistic-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_logistic_robot,
         max_payload_size = Carry_MK2,
-        speed = 0.06 * Speed_MK2,
+        speed = 0.05 * Speed_MK2,
         max_energy = 2.0 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.15,
@@ -1042,7 +1044,7 @@ data:extend({
         dying_explosion = "logistic-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_logistic_robot,
         max_payload_size = Carry_MK3,
-        speed = 0.06 * Speed_MK3,
+        speed = 0.05 * Speed_MK3,
         max_energy = 2.5 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.1,
@@ -1166,7 +1168,7 @@ data:extend({
         dying_explosion = "logistic-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_logistic_robot,
         max_payload_size = Carry_MK4,
-        speed = 0.06 * Speed_MK4,
+        speed = 0.05 * Speed_MK4,
         max_energy = 3.5 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.15,
@@ -1290,7 +1292,7 @@ data:extend({
         dying_explosion = "logistic-robot-explosion",
         factoriopedia_simulation = simulations.factoriopedia_logistic_robot,
         max_payload_size = Carry_MK5,
-        speed = 0.06 * Speed_MK5,
+        speed = 0.05 * Speed_MK5,
         max_energy = 4.5 * Roboter_Battery .. "MJ",
         energy_per_tick = "0.05kJ",
         speed_multiplier_when_out_of_energy = 0.8,
