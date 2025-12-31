@@ -4,7 +4,7 @@ data:extend({
         name = "BRL-Speed-MK1",
 		order = "ca",
         setting_type = "startup",
-        default_value = 1,
+        default_value = 2,
         minimum_value = 1,
         maximum_value = 2.5
     },
@@ -13,7 +13,7 @@ data:extend({
         name = "BRL-Speed-MK2",
 		order = "cb",
         setting_type = "startup",
-        default_value = 2,
+        default_value = 4,
         minimum_value = 1,
         maximum_value = 5.0
     },
@@ -22,7 +22,7 @@ data:extend({
         name = "BRL-Speed-MK3",
 		order = "cc",
         setting_type = "startup",
-        default_value = 3,
+        default_value = 6,
         minimum_value = 1,
         maximum_value = 10.0
     },
@@ -31,7 +31,7 @@ data:extend({
         name = "BRL-Speed-MK4",
 		order = "cd",
         setting_type = "startup",
-        default_value = 4,
+        default_value = 8,
         minimum_value = 1,
         maximum_value = 15.0
     },
@@ -40,7 +40,7 @@ data:extend({
         name = "BRL-Speed-MK5",
 		order = "ce",
         setting_type = "startup",
-        default_value = 5,
+        default_value = 10,
         minimum_value = 1,
         maximum_value = 20.0
     },
