@@ -20,6 +20,12 @@ if mods["boblogistics"] then
 	Tech["bob-robots-4"].dependencies = nil
 	Tech["bob-robots-4"].hidden = true
 
+	Tech["worker-robots-speed-2"].prerequisites = nil
+	Tech["worker-robots-storage-1"].prerequisites = nil
+
+	Tech["worker-robots-speed-2"].prerequisites = {"worker-robots-speed-1"}
+	Tech["worker-robots-storage-1"].prerequisites = {"robotics"}
+
 	Tech["bob-robotics-3"].unit.ingredients = {
 		{"automation-science-pack", 1},
 		{"logistic-science-pack", 1},

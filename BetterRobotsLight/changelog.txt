@@ -6,6 +6,10 @@ Date: 1.1.26
   Changes:
     - Improved settings descriptions.
     - Setting values tweaked.
+  Bugfixes:
+    - Broken prerequisites. With boblogistics.
+  Thanks:
+    - @kage42000 for finding the issue.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 20.12.25
