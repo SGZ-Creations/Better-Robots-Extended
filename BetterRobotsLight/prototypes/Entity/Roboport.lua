@@ -154,8 +154,8 @@ local BRL_roboportmk2 = table.deepcopy(BRL_roboportmk1)
 BRL_roboportmk2.name = "BRL-roboport-mk2"
 BRL_roboportmk2.fast_replaceable_group = "roboport"
 BRL_roboportmk2.next_upgrade = "BRL-roboport-mk3"
-BRL_roboportmk2.logistics_radius = settings.startup["BRL-logistic-radius-mk2"].value
-BRL_roboportmk2.construction_radius = settings.startup["BRL-construction-radius-mk2"].value
+BRL_roboportmk2.logistics_radius = settings.startup["LogisticsRadiusMK2"].value
+BRL_roboportmk2.construction_radius = settings.startup["ConstructionRadiusMK2"].value
 BRL_roboportmk2.minable = {mining_time = 0.5, result = "BRL-roboport-mk2"}
 BRL_roboportmk2.energy_source.input_flow_limit = 16 * Loading_Speed .. "MW"
 BRL_roboportmk2.energy_source.buffer_capacity = 600 * Loading_Speed .. "MJ"
@@ -240,8 +240,8 @@ BRL_roboportmk2.recharging_animation = {
 local BRL_roboportmk3 = table.deepcopy(BRL_roboportmk1)
 BRL_roboportmk3.name = "BRL-roboport-mk3"
 BRL_roboportmk3.fast_replaceable_group = "roboport"
-BRL_roboportmk3.logistics_radius = settings.startup["BRL-logistic-radius-mk3"].value
-BRL_roboportmk3.construction_radius = settings.startup["BRL-construction-radius-mk3"].value
+BRL_roboportmk3.logistics_radius = settings.startup["LogisticsRadiusMK3"].value
+BRL_roboportmk3.construction_radius = settings.startup["ConstructionRadiusMK3"].value
 BRL_roboportmk3.minable = {mining_time = 1, result = "BRL-roboport-mk3"}
 BRL_roboportmk3.energy_source.input_flow_limit = 48 * Loading_Speed .. "MW"
 BRL_roboportmk3.energy_source.buffer_capacity = 1200 * Loading_Speed .. "MJ"

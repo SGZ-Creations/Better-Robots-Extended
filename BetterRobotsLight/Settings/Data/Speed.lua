@@ -1,7 +1,7 @@
 data:extend({
     {
         type = "double-setting",
-        name = "BRL-Speed-MK1",
+        name = "BRLSpeedMK1",
 		order = "ca",
         setting_type = "startup",
         default_value = 2,
@@ -10,7 +10,7 @@ data:extend({
     },
 	{
         type = "double-setting",
-        name = "BRL-Speed-MK2",
+        name = "BRLSpeedMK2",
 		order = "cb",
         setting_type = "startup",
         default_value = 4,
@@ -19,7 +19,7 @@ data:extend({
     },
     {
         type = "double-setting",
-        name = "BRL-Speed-MK3",
+        name = "BRLSpeedMK3",
 		order = "cc",
         setting_type = "startup",
         default_value = 6,
@@ -28,20 +28,20 @@ data:extend({
     },
     {
         type = "double-setting",
-        name = "BRL-Speed-MK4",
+        name = "BRLSpeedMK4",
 		order = "cd",
         setting_type = "startup",
         default_value = 8,
         minimum_value = 1,
-        maximum_value = 15.0
+        maximum_value = 20.0
     },
     {
         type = "double-setting",
-        name = "BRL-Speed-MK5",
+        name = "BRLSpeedMK5",
 		order = "ce",
         setting_type = "startup",
         default_value = 10,
         minimum_value = 1,
-        maximum_value = 20.0
+        maximum_value = 40.0
     },
 })

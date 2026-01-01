@@ -1,16 +1,16 @@
 local hit_effects = require ("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 local simulations = require("__base__.prototypes.factoriopedia-simulations")
-local Speed_MK1 = settings.startup["BRL-Speed-MK1"].value
-local Speed_MK2 = settings.startup["BRL-Speed-MK2"].value
-local Speed_MK3 = settings.startup["BRL-Speed-MK3"].value
-local Speed_MK4 = settings.startup["BRL-Speed-MK4"].value
-local Speed_MK5 = settings.startup["BRL-Speed-MK5"].value
-local Carry_MK1 = settings.startup["BRL-Carry-MK1"].value
-local Carry_MK2 = settings.startup["BRL-Carry-MK2"].value
-local Carry_MK3 = settings.startup["BRL-Carry-MK3"].value
-local Carry_MK4 = settings.startup["BRL-Carry-MK4"].value
-local Carry_MK5 = settings.startup["BRL-Carry-MK5"].value
+local Speed_MK1 = settings.startup["BRLSpeedMK1"].value
+local Speed_MK2 = settings.startup["BRLSpeedMK2"].value
+local Speed_MK3 = settings.startup["BRLSpeedMK3"].value
+local Speed_MK4 = settings.startup["BRLSpeedMK4"].value
+local Speed_MK5 = settings.startup["BRLSpeedMK5"].value
+local Carry_MK1 = settings.startup["BRLCarryMK1"].value
+local Carry_MK2 = settings.startup["BRLCarryMK2"].value
+local Carry_MK3 = settings.startup["BRLCarryMK3"].value
+local Carry_MK4 = settings.startup["BRLCarryMK4"].value
+local Carry_MK5 = settings.startup["BRLCarryMK5"].value
 local Roboter_Battery = settings.startup["BRL-BotsBatteryCapacity"].value
 
 local robot_animations = {}
