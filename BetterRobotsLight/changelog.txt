@@ -1,11 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 1.1.26
+  Features:
+    - Missing settings for MK 1 Speed & Cargo.
+  Changes:
+    - Improved settings descriptions.
+    - Setting values tweaked.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 20.12.25
   Features:
-    - Settings for MK 1 Roboport
+    - Settings for MK 1 Roboport.
   Changes:
     - Texture File name change.
-    - Prefix change BRE 
+    - Prefix change BRE.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 07.12.25
