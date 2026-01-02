@@ -4,8 +4,7 @@ local Loading_Speed = settings.startup["BRL-Charging-speed"].value
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 
-local BRL_roboportmk1 =
-    {
+local BRL_roboportmk1 = {
         type = "roboport",
         name = "BRL-roboport-mk1",
         icon = "__base__/graphics/icons/roboport.png",
