@@ -5,14 +5,6 @@ local Recipe = data.raw.recipe
 ---@class Data.TechnologyPrototype
 local Tech = data.raw["technology"]
 
-
-Recipe["roboport"].hidden = true
-Recipe["roboport"].enabled = false
-Recipe["logistic-robot"].hidden = true
-Recipe["logistic-robot"].enabled = false
-Recipe["construction-robot"].hidden = true
-Recipe["construction-robot"].enabled = false
-
 local function Hide_Item(name)
     local item = Item[name]
     if item then
@@ -23,11 +15,13 @@ local function Hide_Item(name)
     end
 end
 
-Hide_Item("construction-robot")
-Hide_Item("logistic-robot")
-Hide_Item("roboport")
-
 if mods["linox"]then
+    data.raw["logistic-robot"]["linox_samarium-logistic-robot"].next_upgrade = nil
+    data.raw["construction-robot"]["linox_samarium-construction-robot"].next_upgrade = nil
+    table.insert(Recipe["BRL-logistic-robotics-mk5"].ingredients, {type = "item", name = "samarium", amount = 10})
+    table.insert(Recipe["BRL-construction-robotics-mk5"].ingredients, {type = "item", name = "samarium", amount = 10})
+    table.insert(Tech["BRL-RoboticsAndPorts-5"].prerequisites, "linox-technology_sintering-machine")
+
     Recipe["linox_samarium-logistic-robot"].hidden = true
     Recipe["linox_samarium-logistic-robot"].enabled = false
     Recipe["linox_samarium-construction-robot"].hidden = true

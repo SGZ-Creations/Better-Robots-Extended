@@ -1,4 +1,5 @@
 require("Compatibilities.MetalStars_Vesta.Subgrupe")
-require("prototypes.Misc.HidingDisablingFunction")
-require("prototypes.Misc.HidingDisablingModContent")
+require("Compatibilities.DiaDi.DiaDieHidingDisablingModContent")
+require("Compatibilities.Linox.LinoxHidingDisablingModContent")
+require("prototypes.Misc.VanillaHidingDisablingFunction")
 require("Compatibilities.Bobs.BobRecipesFixes")
