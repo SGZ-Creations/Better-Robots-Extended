@@ -2,6 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "BRL-roboport-mk1",
+        category = "electronics-or-handcrafting",
         enabled = false,
         allow_quality = true,
         ingredients = {
@@ -14,6 +15,7 @@ data:extend({
     {
         type = "recipe",
         name = "BRL-roboport-mk2",
+        category = "electronics-or-handcrafting",
         enabled = false,
         allow_quality = true,
         energy_required = 10,
@@ -30,6 +32,7 @@ data:extend({
     {
         type = "recipe",
         name = "BRL-roboport-mk3",
+        category = "electronics-or-handcrafting",
         enabled = false,
         allow_quality = true,
         energy_required = 20,

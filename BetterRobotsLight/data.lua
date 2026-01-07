@@ -6,6 +6,7 @@ require("prototypes.Entity.Robotics")
 require("prototypes.Entity.Roboport")
 
 require("prototypes.Misc.Groupe_Subgrupe")
+require("prototypes.Misc.CraftingCategoriesData")
 
 require("prototypes.Recipe.Robots")
 require("prototypes.Recipe.Roboport")
