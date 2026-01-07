@@ -65,6 +65,7 @@ data:extend({
 		order = "A[robot]-AE[1-construction-bot]",
 		ingredients = {
 			{type = "item", name = "BRL-construction-robotics-mk4", amount = 1},
+			{type = "item", name = "low-density-structure", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
 			{type = "item", name = "processing-unit", amount = 1},
 		},

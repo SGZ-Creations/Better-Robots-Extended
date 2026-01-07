@@ -1,10 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.1
-Date: 0.1.26
+Date: 7.1.26
   Features:
     - New crafting categories added (EM Plant).
   Changes:
     - Internal Code organizing.
+    - Missing ingredient on construction 
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 3.1.26
