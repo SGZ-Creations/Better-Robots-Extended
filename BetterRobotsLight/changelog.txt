@@ -5,14 +5,16 @@ Date: 7.1.26
     - New crafting categories added (EM Plant).
   Changes:
     - Internal Code organizing.
-    - Missing ingredient on construction 
+    - Missing ingredient on construction.
+  Bugfixes:
+    - Crashing on Setting changed using Vesta & Metal and Stars.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 3.1.26
   Features:
     - First release.
     - New Thumbnail.
-    - Thanks Nick1Z2 for the original mod. & trying to implement the patches compatibility i asked but never worked out.
+    - Thanks Nick1Z2 for the original mod. & trying to implement the patches compatibility i asked for but never worked out.
   Bugfixes:
     - Dependency crash with bobs. 
 ---------------------------------------------------------------------------------------------------
