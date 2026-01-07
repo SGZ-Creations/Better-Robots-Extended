@@ -8,6 +8,7 @@ Date: 7.1.26
     - Missing ingredient on construction.
   Bugfixes:
     - Crashing on Setting changed using Vesta & Metal and Stars.
+    - Crashing on Setting changed using boblogistics.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 3.1.26
