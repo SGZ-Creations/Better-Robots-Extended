@@ -17,8 +17,12 @@ local function Hide_Item(name)
 end
 
 if mods["linox"]then
-    data.raw["logistic-robot"]["linox_samarium-logistic-robot"].next_upgrade = nil
-    data.raw["construction-robot"]["linox_samarium-construction-robot"].next_upgrade = nil
+    Data["logistic-robot"]["linox_samarium-logistic-robot"].next_upgrade = nil
+    Data["construction-robot"]["linox_samarium-construction-robot"].next_upgrade = nil
+
+    Data["construction-robot"]["linox_samarium-construction-robot"].hidden_in_factoriopedia = true
+    Data["logistic-robot"]["linox_samarium-logistic-robot"].hidden_in_factoriopedia = true
+
     table.insert(Recipe["BRL-logistic-robotics-mk5"].ingredients, {type = "item", name = "samarium", amount = 10})
     table.insert(Recipe["BRL-construction-robotics-mk5"].ingredients, {type = "item", name = "samarium", amount = 10})
     table.insert(Tech["BRL-RoboticsAndPorts-5"].prerequisites, "linox-technology_sintering-machine")
@@ -29,7 +33,4 @@ if mods["linox"]then
     Recipe["linox_samarium-construction-robot"].enabled = false
     Hide_Item("linox_samarium-logistic-robot")
     Hide_Item("linox_samarium-construction-robot")
-
-    Data["construction-robot"]["linox_samarium-construction-robot"].hidden_in_factoriopedia = true
-    Data["logistic-robot"]["linox_samarium-logistic-robot"].hidden_in_factoriopedia = true
 end
