@@ -2,6 +2,7 @@
 local Item = data.raw.item
 ---@class data.RecipePrototype
 local Recipe = data.raw.recipe
+local Data = data.raw
 
 local function Hide_Item(name)
     local item = Item[name]
@@ -13,9 +14,9 @@ local function Hide_Item(name)
     end
 end
 
-data.raw["construction-robot"]["construction-robot"].next_upgrade = nil
-data.raw["logistic-robot"]["logistic-robot"].next_upgrade = nil
-data.raw["roboport"]["roboport"].next_upgrade = nil
+Data["construction-robot"]["construction-robot"].next_upgrade = nil
+Data["logistic-robot"]["logistic-robot"].next_upgrade = nil
+Data["roboport"]["roboport"].next_upgrade = nil
 
 Recipe["roboport"].hidden = true
 Recipe["roboport"].enabled = false
@@ -28,3 +29,7 @@ Recipe["construction-robot"].enabled = false
 Hide_Item("construction-robot")
 Hide_Item("logistic-robot")
 Hide_Item("roboport")
+
+Data["construction-robot"]["construction-robot"].hidden_in_factoriopedia = true
+Data["logistic-robot"]["logistic-robot"].hidden_in_factoriopedia = true
+Data["roboport"]["roboport"].hidden_in_factoriopedia = true
