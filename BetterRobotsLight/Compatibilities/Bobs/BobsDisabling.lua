@@ -5,6 +5,8 @@ local Recipe = data.raw.recipe
 ---@class Data.ItemPrototype
 local Item = data.raw.item
 
+local Data = data.raw
+
     local function Hide_Item(name)
         local item = Item[name]
         if item then
@@ -16,19 +18,34 @@ local Item = data.raw.item
     end
 
 if mods["boblogistics"] then
-    data.raw["logistic-robot"]["bob-logistic-robot-2"].next_upgrade = nil
-    data.raw["logistic-robot"]["bob-logistic-robot-3"].next_upgrade = nil
-    data.raw["logistic-robot"]["bob-logistic-robot-4"].next_upgrade = nil
-    data.raw["logistic-robot"]["bob-logistic-robot-5"].next_upgrade = nil
+    Data["logistic-robot"]["bob-logistic-robot-2"].next_upgrade = nil
+    Data["logistic-robot"]["bob-logistic-robot-3"].next_upgrade = nil
+    Data["logistic-robot"]["bob-logistic-robot-4"].next_upgrade = nil
+    Data["logistic-robot"]["bob-logistic-robot-5"].next_upgrade = nil
 
-    data.raw["construction-robot"]["bob-construction-robot-2"].next_upgrade = nil
-    data.raw["construction-robot"]["bob-construction-robot-3"].next_upgrade = nil
-    data.raw["construction-robot"]["bob-construction-robot-4"].next_upgrade = nil
-    data.raw["construction-robot"]["bob-construction-robot-5"].next_upgrade = nil
+    Data["construction-robot"]["bob-construction-robot-2"].next_upgrade = nil
+    Data["construction-robot"]["bob-construction-robot-3"].next_upgrade = nil
+    Data["construction-robot"]["bob-construction-robot-4"].next_upgrade = nil
+    Data["construction-robot"]["bob-construction-robot-5"].next_upgrade = nil
 
-    data.raw["roboport"]["bob-roboport-2"].next_upgrade = nil
-    data.raw["roboport"]["bob-roboport-3"].next_upgrade = nil
-    data.raw["roboport"]["bob-roboport-4"].next_upgrade = nil
+    Data["roboport"]["bob-roboport-2"].next_upgrade = nil
+    Data["roboport"]["bob-roboport-3"].next_upgrade = nil
+    Data["roboport"]["bob-roboport-4"].next_upgrade = nil
+
+    Data["logistic-robot"]["bob-logistic-robot-2"].hidden_in_factoriopedia = true
+    Data["logistic-robot"]["bob-logistic-robot-3"].hidden_in_factoriopedia = true
+    Data["logistic-robot"]["bob-logistic-robot-4"].hidden_in_factoriopedia = true
+    Data["logistic-robot"]["bob-logistic-robot-5"].hidden_in_factoriopedia = true
+
+    Data["construction-robot"]["bob-construction-robot-2"].hidden_in_factoriopedia = true
+    Data["construction-robot"]["bob-construction-robot-3"].hidden_in_factoriopedia = true
+    Data["construction-robot"]["bob-construction-robot-4"].hidden_in_factoriopedia = true
+    Data["construction-robot"]["bob-construction-robot-5"].hidden_in_factoriopedia = true
+
+    Data["roboport"]["bob-roboport-2"].hidden_in_factoriopedia = true
+    Data["roboport"]["bob-roboport-3"].hidden_in_factoriopedia = true
+    Data["roboport"]["bob-roboport-4"].hidden_in_factoriopedia = true
+
 
 
     local recipes = {
