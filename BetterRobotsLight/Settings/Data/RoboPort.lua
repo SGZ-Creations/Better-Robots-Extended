@@ -54,3 +54,25 @@ data:extend({
 		maximum_value = 5000
 	},
 })
+if mods["boblogistics"]then
+	data:extend({
+		{
+			type = "int-setting",
+			name = "LogisticsZoneRadiusMK4",
+			order = "Logistic4",
+			setting_type = "startup",
+			default_value = 400,
+			minimum_value = 10,
+			maximum_value = 7500
+		},
+			{
+			type = "int-setting",
+			name = "ConstructionZoneRadiusMK4",
+			order = "Construction4",
+			setting_type = "startup",
+			default_value = 450,
+			minimum_value = 10,
+			maximum_value = 7500
+		},
+	})
+end

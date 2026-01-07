@@ -15,8 +15,6 @@ function RemoveIngredients(recipe_name, ingredient_name)
     end
 end
 
-Recipe["roboport"].ingredients = nil
-
 if mods["boblogistics"]and not mods["bobplates"]then
 	if SS["bobmods-logistics-flyingrobotframes"].value == true then
 		table.insert(Recipe["BRL-construction-robotics-mk2"].ingredients, {type = "item", name = "bob-flying-robot-frame-2", amount = 1})

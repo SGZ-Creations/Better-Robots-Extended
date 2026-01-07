@@ -25,6 +25,7 @@ if mods["boblogistics"] then
 
 	Tech["worker-robots-speed-2"].prerequisites = {"worker-robots-speed-1"}
 	Tech["worker-robots-storage-1"].prerequisites = {"robotics"}
+
 	if SS["bobmods-logistics-flyingrobotframes"].value == true then
 		Tech["bob-robotics-3"].unit.ingredients = {
 			{"automation-science-pack", 1},
